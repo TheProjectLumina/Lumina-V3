@@ -3,148 +3,71 @@
 
     <Grid>
 
-
-
         <!-- Opening animation -->
-
-
         <Grid x:Name="OpeningAnim" Panel.ZIndex="10" Visibility="Visible">
 
+            <Border Background="#111111" CornerRadius="20" BorderBrush="DimGray" BorderThickness="0.5"/>
 
+            <Image x:Name="OpeningLogo" Source="/Resources/StarZLogo.png" Margin="252,133,252,305" RenderOptions.BitmapScalingMode="HighQuality"/>
 
-            <Border Background="#111111" CornerRadius="20" BorderBrush="DimGray" BorderThickness="0.5" Margin="936,35,-936,-35"/>
-
-
-
-            <Image x:Name="OpeningLogo" Source="/Resources/StarZLogo.png" Margin="1452,135,-696,303" RenderOptions.BitmapScalingMode="HighQuality"/>
-
-
-            <Border Background="White" CornerRadius="2" BorderThickness="1" Margin="1262,365,-610,194">
-
-
-                <ProgressBar Minimum="0" Maximum="1" Value="0" Background="Transparent" BorderThickness="0" Margin="-9,1,9,-2">
-
-
+            <Border Background="White" CornerRadius="2" BorderThickness="1" Margin="262,353,262,199">
+                <ProgressBar Minimum="0" Maximum="1" Value="0" Background="Transparent" BorderThickness="0" Margin="0,0,0,0">
                     <ProgressBar.Foreground>
-
-
                         <LinearGradientBrush EndPoint="0.5,25" StartPoint="0,0">
-
-
                             <GradientStop Color="Silver" Offset="0"/>
-
-
                             <GradientStop Color="#ffffff" Offset="1"/>
-
-
                         </LinearGradientBrush>
-
-
                     </ProgressBar.Foreground>
-
-
                     <ProgressBar.Triggers>
-
-
                         <EventTrigger RoutedEvent="Loaded">
-
-
                             <BeginStoryboard>
-
-
                                 <Storyboard>
-
-
                                     <DoubleAnimation Storyboard.TargetProperty="Value" From="0" To="1" Duration="0:0:1"/>
-
-
                                 </Storyboard>
-
-
                             </BeginStoryboard>
-
-
                         </EventTrigger>
-
-
                     </ProgressBar.Triggers>
-
-
                 </ProgressBar>
-
-
             </Border>
-
-
 
         </Grid>
 
-
-
         <Border x:Name="MenuMainBackground" Background="{DynamicResource PrimaryBackgroundColor}" Opacity="1" CornerRadius="20" Width="904" Height="564"/>
-
 
         <Border x:Name="SideBarBackground" Background="{DynamicResource SecondaryBackgroundColor}" Opacity="0.7" CornerRadius="15" Width="55" HorizontalAlignment="Left" Margin="25,138,0,25"/>
 
-
         <Border x:Name="TopBarBackground" Background="{DynamicResource SecondaryBackgroundColor}" Opacity="0.7" BorderThickness="0" CornerRadius="15" Margin="25,25,143,448"/>
-
 
         <Border x:Name="TopBarBackground2" Background="{DynamicResource SecondaryBackgroundColor}" Opacity="0.7" BorderThickness="0" CornerRadius="15" Margin="766,25,25,448"/>
 
-
         <Border x:Name="MainBackground" Background="{DynamicResource SecondaryBackgroundColor}" Opacity="0.7" CornerRadius="15" Width="757" HorizontalAlignment="Left" Margin="122,138,0,25"/>
 
+        <Border x:Name="LogoBackground" Background="{DynamicResource SecondaryBackgroundColor}" CornerRadius="15" Width="80" Height="80" Margin="25,25,799,459"/>
 
-        <Border x:Name="LogoBackground" Background="{DynamicResource SecondaryBackgroundColor}" CornerRadius="15" Width="80" Height="80" Margin="-178,119,1002,365"/>
+        <Rectangle Name="DragWindow" Fill="Transparent" Height="90" Panel.ZIndex="2" Width="894" Opacity="0.1" Canvas.Left="14" Canvas.Top="27" HorizontalAlignment="Center" MouseLeftButtonDown="WindowToolbar_MouseLeftButtonDown" VerticalAlignment="Top" Margin="0,20,0,0"/>
 
-
-        <Rectangle Name="DragWindow" Fill="Transparent" Height="91" Panel.ZIndex="2" Width="894" Opacity="0.1" Canvas.Left="14" Canvas.Top="27" HorizontalAlignment="Left" MouseLeftButtonDown="WindowToolbar_MouseLeftButtonDown" VerticalAlignment="Top" Margin="933,54,0,0"/>
-
-
-
-        <Rectangle x:Name="CloseButton" Style="{DynamicResource IconsStyle}" Height="34" Margin="825,53,45,477" MouseLeftButtonDown="CloseButton_Click" RenderTransformOrigin="0.5, 0.5" Panel.ZIndex="3">
+        <Rectangle x:Name="CloseButton" Style="{DynamicResource IconsStyle}" Height="34" Margin="825,48,45,482" MouseLeftButtonDown="CloseButton_Click" RenderTransformOrigin="0.5, 0.5" Panel.ZIndex="3">
             <Rectangle.OpacityMask>
                 <ImageBrush ImageSource="/Resources/CloseGray.png" RenderOptions.BitmapScalingMode="HighQuality" />
             </Rectangle.OpacityMask>
         </Rectangle>
 
-
-
-
-        <Rectangle x:Name="MinimizeButton" Style="{DynamicResource IconsStyle}" Height="34" Margin="786,53,84,477" MouseLeftButtonDown="MinimizeButton_Click" RenderTransformOrigin="0.5, 0.5" Panel.ZIndex="3">
+        <Rectangle x:Name="MinimizeButton" Style="{DynamicResource IconsStyle}" Height="34" Margin="786,48,84,482" MouseLeftButtonDown="MinimizeButton_Click" RenderTransformOrigin="0.5, 0.5" Panel.ZIndex="3">
             <Rectangle.OpacityMask>
                 <ImageBrush ImageSource="/Resources/MinimizeGray.png" RenderOptions.BitmapScalingMode="HighQuality" />
             </Rectangle.OpacityMask>
         </Rectangle>
 
         <!-- Rectangle to apply the color tint -->
+        <Image Source="/Resources/StarZLogoColoredPart.png" Width="70" HorizontalAlignment="Left" Margin="35,38,0,456" />
 
-        <Image Source="/Resources/StarZLogoColoredPart.png" Width="70" HorizontalAlignment="Left" Margin="48,36,0,459" />
+        <TextBlock x:Name="StarZText" Text="L U M I N A" Foreground="{DynamicResource TextColor}" FontSize="24" FontFamily="HONOR Sans" Margin="139,54,597,464" FontWeight="Bold"/>
 
-        <!--  <Rectangle x:Name="StarZLogoPart2" Fill="{DynamicResource DimGray}" RenderOptions.BitmapScalingMode="HighQuality" Width="50" Height="50" HorizontalAlignment="Left" Margin="52,45,0,469"> -->
-        <!-- Tint color -->
-        <!--   <Rectangle.OpacityMask> -->
-        <!--  <ImageBrush ImageSource="/Resources/StarZLogoColoredPart.png" RenderOptions.BitmapScalingMode="HighQuality" /> -->
-        <!--    </Rectangle.OpacityMask> -->
-        <!--   </Rectangle> -->
-        <!-- Rectangle to apply the color tint -->
-        <!--  <Rectangle x:Name="StarZLogoPart1" Fill="{DynamicResource IconColor}" RenderOptions.BitmapScalingMode="HighQuality" Width="50" Height="50" HorizontalAlignment="Left" Margin="47,46,0,468"> -->
-        <!-- Tint color -->
-        <!-- <Rectangle.OpacityMask> -->
-        <!--  <ImageBrush ImageSource="/Resources/StarZLogoDark.png" RenderOptions.BitmapScalingMode="HighQuality" /> -->
-        <!-- </Rectangle.OpacityMask> -->
-        <!-- </Rectangle> -->
-
-
-        <TextBlock x:Name="StarZText" Text="L U M I N A" Foreground="{DynamicResource TextColor}" FontSize="30" FontFamily="HONOR Sans" Margin="139,53,596,479" FontWeight="Bold"/>
-
-
-        <TextBlock x:Name="VersionText" Text="Launcher v0.2" FontSize="20" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="631,687,143,-144"/>
+        <TextBlock x:Name="VersionText" Text="Launcher v0.2" FontSize="18" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="63991,507,143,36"/>
 
 
 
-        <TabControl x:Name="SideBarTabControl" BorderThickness="0" Background="Transparent" Height="656" Width="904" HorizontalAlignment="Center" VerticalAlignment="Top" SelectionChanged="SideBarTabControl_SelectionChanged" Opacity="0.9" Margin="0,-51,0,0">
+        <TabControl x:Name="SideBarTabControl" BorderThickness="0" Background="Transparent" Height="656" Width="904" HorizontalAlignment="Center" VerticalAlignment="Center" SelectionChanged="SideBarTabControl_SelectionChanged" Opacity="0.9">
 
 
 
@@ -393,7 +316,7 @@
 
 
 
-                            <Button Content="Join &gt;" Cursor="Hand" Foreground="White" FontWeight="Bold" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" Click="JoinDiscordServer_Click" Margin="218,460,467,0" Height="30" VerticalAlignment="Top" RenderTransformOrigin="0.526,0.563"/>
+                            <Button Content="Join" Cursor="Hand" Foreground="DimGray" FontWeight="Bold" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" Click="JoinDiscordServer_Click" Margin="218,460,467,0" Height="30" VerticalAlignment="Top" RenderTransformOrigin="0.526,0.563"/>
 
 
 
@@ -972,6 +895,7 @@
                     </Grid>
 
 
+                    
                 </Grid>
 
 
@@ -1866,9 +1790,6 @@
 
         <Border x:Name="DarkerBackgroundOverlay" Visibility="Collapsed" HorizontalAlignment="Center" Height="564" Width="904" Opacity="0.7" BorderThickness="0.5" VerticalAlignment="Center" CornerRadius="20" Background="Black"/>
 
-
-
     </Grid>
-
 
 </Window>

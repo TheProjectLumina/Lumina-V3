@@ -39,10 +39,10 @@ namespace StarZLauncher.Classes
 
    private static Dictionary<string, string> CreateLightThemeColorDictionary() => new()
 {
-    { "AccentColor1", "#FFDADADA" }, // Soft Warm Gray
-    { "AccentColor2", "#FFB0B0B0" }, // Muted Gray
-    { "PrimaryBackgroundColor", "#FFF5F5F5" }, // Warm Off-White
-    { "SecondaryBackgroundColor", "#FFE8E8E8" }, // Light Gray
+    { "AccentColor1", "#FF463d3e" }, // Soft Warm Gray
+    { "AccentColor2", "#FF463d3e" }, // Muted Gray
+    { "PrimaryBackgroundColor", "#FFf6eedf" }, // Warm Off-White
+    { "SecondaryBackgroundColor", "#FFfef0de" }, // Light Gray
     { "IconColor", "#FF505050" }, // Muted Dark Gray
     { "TextColor", "#FF505050" } // Muted Dark Gray
 };
@@ -50,10 +50,10 @@ namespace StarZLauncher.Classes
 
 private static Dictionary<string, string> CreateDarkThemeColorDictionary() => new()
 {
-    { "AccentColor1", "#FF455A64" }, // Deep Blue-Gray
-    { "AccentColor2", "#FF37474F" }, // Rich Charcoal Gray
-    { "PrimaryBackgroundColor", "#FF181A1F" }, // Very Dark Gray
-    { "SecondaryBackgroundColor", "#FF1C252C" }, // Deeper Charcoal Gray
+    { "AccentColor1", "#FFc5d1da" }, // Deep Blue-Gray
+    { "AccentColor2", "#FFc5d1da" }, // Rich Charcoal Gray
+    { "PrimaryBackgroundColor", "#FF000000" }, // Very Dark Gray
+    { "SecondaryBackgroundColor", "#FF151517" }, // Deeper Charcoal Gray
     { "IconColor", "#FFCFD8DC" }, // Light Blue-Gray
     { "TextColor", "#FFCFD8DC" } // Light Blue-Gray
 };
@@ -62,10 +62,10 @@ private static Dictionary<string, string> CreateCustomThemeColorDictionary() => 
 {
     { "AccentColor1", "#FF607D8B" }, // Strong Muted Blue-Gray
     { "AccentColor2", "#FF546E7A" }, // Rich Blue-Gray
-    { "PrimaryBackgroundColor", "#FF1A1F26" }, // Very Dark Blue-Gray
+    { "PrimaryBackgroundColor", "#FF0f0d0d" }, // Very Dark Blue-Gray
     { "SecondaryBackgroundColor", "#FF263238" }, // Deep Charcoal Gray
     { "IconColor", "#FFB0BEC5" }, // Soft Blue-Gray
-    { "TextColor", "#FFB0BEC5" } // Soft Blue-Gray
+    { "TextColor", "#FFb7b9b5" } // Soft Blue-Gray
 };
 
 
