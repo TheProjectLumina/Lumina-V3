@@ -1,0 +1,20 @@
+﻿StarZLauncher
+5.1.8.0
+
+winexe
+C#
+.cs
+E:\starx\StarZ Launcher\StarZLauncher\obj\Debug\net48\
+StarZLauncher
+none
+false
+TRACE;DEBUG;NETFRAMEWORK;NET48;
+E:\starx\StarZ Launcher\StarZLauncher\App.xaml
+5479301205
+11405950634
+211881033024
+2588627032
+Themes\ColorsManager.xaml;Windows\EditWindow.xaml;Windows\MainWindow.xaml;Windows\StarZColorDialog.xaml;Windows\StarZMessageBox.xaml;
+
+False
+
