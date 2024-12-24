@@ -13,7 +13,7 @@ namespace StarZLauncher.Classes
 {
     public static class ThemesManager
     {
-        private static readonly string themeFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "StarZ Launcher", "Theme", "StarZTheme.szt");
+        private static readonly string themeFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Lumina Launcher", "Theme", "luna.szt");
         private static readonly string ActiveColor = "#F6F8FA";
         private static readonly string logFileName = "ThemesManager.txt";
 

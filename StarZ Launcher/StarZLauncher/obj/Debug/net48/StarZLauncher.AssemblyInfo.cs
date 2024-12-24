@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("StarZ Team ©")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A Minecraft Bedrock Edition Launcher")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("5.1.8.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a2963ea912e33f945139b69f80a51f742a5b23b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+882b0ec235457b9426962cd8ca23b92961ec9df7")]
 [assembly: System.Reflection.AssemblyProductAttribute("StarZ: A Minecraft Bedrock Edition Launcher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StarZLauncher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("5.1.8.0")]

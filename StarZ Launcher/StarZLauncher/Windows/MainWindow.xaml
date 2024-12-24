@@ -134,13 +134,13 @@
         </Rectangle>
 
 
-        <TextBlock x:Name="StarZText" Text="Lumina" Foreground="{DynamicResource AccentColorGradientBrush}" FontSize="30" FontFamily="Outfit" FontWeight="SemiBold" Margin="122,38,702,494">
+        <TextBlock x:Name="StarZText" Text="Lumina" Foreground="{DynamicResource AccentColorGradientBrush}" FontSize="20" FontFamily="Outfit" FontWeight="SemiBold" Margin="122,38,702,494">
 
 
         </TextBlock>
 
 
-        <TextBlock x:Name="VersionText" Text="Launcher v0.2" FontSize="20" FontFamily="Outfit" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="122,71,668,472"/>
+        <TextBlock x:Name="VersionText" Text="Launcher v0.2" FontSize="16" FontFamily="Outfit" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="122,71,668,472"/>
 
 
 

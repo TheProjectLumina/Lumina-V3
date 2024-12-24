@@ -6951,11 +6951,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\starx\\StarZ Launcher\\StarZLauncher\\StarZLauncher.csproj",
+      "projectUniqueName": "E:\\github\\luminabe-dev\\StarZ Launcher\\StarZLauncher\\StarZLauncher.csproj",
       "projectName": "StarZLauncher",
-      "projectPath": "E:\\starx\\StarZ Launcher\\StarZLauncher\\StarZLauncher.csproj",
+      "projectPath": "E:\\github\\luminabe-dev\\StarZ Launcher\\StarZLauncher\\StarZLauncher.csproj",
       "packagesPath": "C:\\Users\\mrjar\\.nuget\\packages\\",
-      "outputPath": "E:\\starx\\StarZ Launcher\\StarZLauncher\\obj\\",
+      "outputPath": "E:\\github\\luminabe-dev\\StarZ Launcher\\StarZLauncher\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
