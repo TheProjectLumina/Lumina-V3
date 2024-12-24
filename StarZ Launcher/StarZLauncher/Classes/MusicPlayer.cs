@@ -32,7 +32,7 @@ namespace StarZLauncher.Classes
 
         static MusicPlayer()
         {
-            MusicDirectoryPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "StarZ Launcher", "Musics");
+            MusicDirectoryPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Luna Launcher", "Musics");
             Directory.CreateDirectory(MusicDirectoryPath);
             MediaPlayer = new MediaPlayer();
             MediaPlayer.MediaEnded += MediaPlayer_MediaEnded;
@@ -320,7 +320,7 @@ namespace StarZLauncher.Classes
             try
             {
                 // Define the path to the FFMpeg executable
-                string ffmpegPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "StarZ Launcher", "Musics");
+                string ffmpegPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Luna Launcher", "Musics");
 
                 // Ensure the output directory exists
                 Directory.CreateDirectory(Path.GetDirectoryName(outputFilePath));

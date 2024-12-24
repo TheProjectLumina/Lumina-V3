@@ -20,14 +20,14 @@ namespace StarZLauncher.Classes
             { "Theme", "LightTheme" },
             { "InjectionDelay", "0" },
             { "AccelerateLoadingTime", "0" },
-            { "MinecraftInstallationPath", Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "StarZ Launcher", "Versions") },
+            { "MinecraftInstallationPath", Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Luna Launcher", "Versions") },
             { "OfflineMode", false },
             { "DoNotAskForUpdates", false },
             { "DebugHardwareMonitoring", true },
             { "DebugFontInstaller", false }
         };
 
-        private static readonly string configFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "StarZ Launcher", "Settings.txt");
+        private static readonly string configFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Luna Launcher", "Settings.txt");
         private static readonly Dictionary<string, object> settings = new(DefaultSettings);
 
         static ConfigManager()

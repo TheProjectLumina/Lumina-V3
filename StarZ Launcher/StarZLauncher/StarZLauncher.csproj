@@ -6,13 +6,13 @@
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
 	<Platforms>AnyCPU;x64</Platforms>
-	<ApplicationIcon>Resources/starz.ico</ApplicationIcon>
+	<ApplicationIcon>Resources/StarZ.ico</ApplicationIcon>
 	<LangVersion>11</LangVersion>
-	<Company>StarZ Team ©</Company>
-	<Product>StarZ: A Minecraft Bedrock Edition Launcher</Product>
+	<Company>Luna Team ©</Company>
+	<Product>Luna: A Minecraft Bedrock Edition Launcher</Product>
 	<AssemblyName>StarZLauncher</AssemblyName>
     <Description>A Minecraft Bedrock Edition Launcher</Description>
-	<Copyright>StarZ Team ©</Copyright>
+	<Copyright>Luna Team ©</Copyright>
 	<FileVersion>5.1.8.0</FileVersion>
 	<AssemblyVersion>5.1.8.0</AssemblyVersion>
 	<PlatformTarget>x64</PlatformTarget>
@@ -69,7 +69,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Content Include="Resources/starz.ico" />
+		<Content Include="Resources/StarZ.ico" />
 	</ItemGroup>
 
 	<ItemGroup>

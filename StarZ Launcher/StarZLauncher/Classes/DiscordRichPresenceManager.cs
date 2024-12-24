@@ -30,8 +30,8 @@ namespace StarZLauncher.Classes
                     Timestamps = Timestamps.Now,
                     Assets = new Assets
                     {
-                        LargeImageKey = "starz",
-                        LargeImageText = "StarZ Launcher",
+                        LargeImageKey = "Luna",
+                        LargeImageText = "Luna Launcher",
                         SmallImageKey = "minecraft",
                         SmallImageText = "Minecraft For Windows"
                     }

@@ -673,7 +673,7 @@ namespace StarZLauncher.Windows
 
         private void InjectionDelayInfo_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            StarZMessageBox.ShowDialog("Reads a value between 0 and 10000 representing time in milliseconds before a DLL is injected into the game. 0 means no delay and 10000 means 10 seconds. Useful for those whose game would crash when using StarZ.", "Injection Delay", false);
+            StarZMessageBox.ShowDialog("Reads a value between 0 and 10000 representing time in milliseconds before a DLL is injected into the game. 0 means no delay and 10000 means 10 seconds. Useful for those whose game would crash when using Luna.", "Injection Delay", false);
         }
 
         private void AccelerateLoadingTimeInfo_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
@@ -683,7 +683,7 @@ namespace StarZLauncher.Windows
 
         private void LauncherFolderButton_Click(object sender, RoutedEventArgs e)
         {
-            string folderPath = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "StarZ Launcher");
+            string folderPath = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Luna Launcher");
 
             if (Directory.Exists(folderPath))
             {
@@ -735,7 +735,7 @@ namespace StarZLauncher.Windows
 
         private void MinecraftInstallationPathReset_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            string path = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "StarZ Launcher", "Versions");
+            string path = System.IO.Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Luna Launcher", "Versions");
 
             // Create the directory if it does not exist
             if (!Directory.Exists(path))

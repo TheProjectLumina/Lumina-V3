@@ -173,7 +173,7 @@ namespace StarZLauncher.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/StarZLauncher;V5.1.8.0;component/windows/starzcolordialog.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/StarZLauncher;V5.1.8.0;component/windows/StarZcolordialog.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Windows\StarZColorDialog.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

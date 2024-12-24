@@ -4,7 +4,7 @@ using System.IO;
 
 public static class LogManager
 {
-    private static readonly string logDirectory = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "StarZ Launcher", "Logs");
+    private static readonly string logDirectory = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Luna Launcher", "Logs");
 
     static LogManager()
     {

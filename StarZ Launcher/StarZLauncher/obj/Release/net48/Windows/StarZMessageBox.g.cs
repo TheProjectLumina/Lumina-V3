@@ -93,7 +93,7 @@ namespace StarZLauncher.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/StarZLauncher;V5.1.8.0;component/windows/starzmessagebox.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/StarZLauncher;V5.1.8.0;component/windows/StarZmessagebox.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Windows\StarZMessageBox.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

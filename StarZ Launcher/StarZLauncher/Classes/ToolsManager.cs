@@ -284,7 +284,7 @@ namespace StarZLauncher.Classes
             if (result == true)
             {
                 string currentFolderPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Packages", "Microsoft.MinecraftUWP_8wekyb3d8bbwe", "LocalState", "games", "com.mojang");
-                string newFolderPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "StarZ Launcher", "Profiles", editWindow.NewName);
+                string newFolderPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Luna Launcher", "Profiles", editWindow.NewName);
 
                 // Check if the current folder path exists
                 if (Directory.Exists(currentFolderPath))
@@ -293,7 +293,7 @@ namespace StarZLauncher.Classes
                     if (Directory.Exists(newFolderPath))
                     {
                         string modifiedNewName = GetUniqueFolderName(editWindow.NewName!);
-                        newFolderPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "StarZ Launcher", "Profiles", modifiedNewName);
+                        newFolderPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Luna Launcher", "Profiles", modifiedNewName);
                     }
 
                     // Copy the folder to the new location asynchronously
@@ -312,7 +312,7 @@ namespace StarZLauncher.Classes
             int counter = 1;
 
             // Append a counter to the folder name until it becomes unique
-            while (Directory.Exists(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "StarZ Launcher", "Profiles", modifiedName)))
+            while (Directory.Exists(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Luna Launcher", "Profiles", modifiedName)))
             {
                 modifiedName = $"{folderName} ({counter})";
                 counter++;
@@ -349,7 +349,7 @@ namespace StarZLauncher.Classes
             // Set folder paths
             string gamesFolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Packages", "Microsoft.MinecraftUWP_8wekyb3d8bbwe", "LocalState", "games");
             string commojangFolder = Path.Combine(gamesFolder, "com.mojang");
-            string rootFolderPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "StarZ Launcher", "Profiles");
+            string rootFolderPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Luna Launcher", "Profiles");
 
             // Create and configure the FolderBrowserDialog
             var dialog = new BetterFolderBrowser();

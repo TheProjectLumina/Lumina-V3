@@ -12,7 +12,7 @@ namespace StarZLauncher.Classes
     public static class Launch
     {
         public static Process? Minecraft;
-        private static readonly string ModsFolderPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "StarZ Launcher", "Mods");
+        private static readonly string ModsFolderPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Luna Launcher", "Mods");
         public static string? DllNameLaunchOnRightClick { get; private set; }
 
         // Check if Minecraft is opened

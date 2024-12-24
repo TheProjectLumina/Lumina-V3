@@ -16,7 +16,7 @@
 
 
 
-            <Image x:Name="OpeningLogo" Source="/Resources/StarZLogo.png" Margin="378,204,378,234" RenderOptions.BitmapScalingMode="HighQuality"/>
+            <Image x:Name="OpeningLogo" Source="/Resources/StarZLogo.png" Margin="378,156,378,282" RenderOptions.BitmapScalingMode="HighQuality"/>
 
 
             <Border Background="White" CornerRadius="2" BorderThickness="1" Margin="326,335,326,224">
@@ -31,10 +31,10 @@
                         <LinearGradientBrush EndPoint="0.5,25" StartPoint="0,0">
 
 
-                            <GradientStop Color="#FF00C7ED" Offset="0"/>
+                            <GradientStop Color="Silver" Offset="0"/>
 
 
-                            <GradientStop Color="#FF0044EA" Offset="1"/>
+                            <GradientStop Color="#ffffff" Offset="1"/>
 
 
                         </LinearGradientBrush>
@@ -126,12 +126,12 @@
             </Rectangle.OpacityMask>
         </Rectangle>
         <!-- Rectangle to apply the color tint -->
-        <Rectangle x:Name="StarZLogoPart1" Fill="{DynamicResource IconColor}" RenderOptions.BitmapScalingMode="HighQuality" Width="50" Height="50" HorizontalAlignment="Left" Margin="47,46,0,468">
+      <!--  <Rectangle x:Name="StarZLogoPart1" Fill="{DynamicResource IconColor}" RenderOptions.BitmapScalingMode="HighQuality" Width="50" Height="50" HorizontalAlignment="Left" Margin="47,46,0,468"> -->
             <!-- Tint color -->
-            <Rectangle.OpacityMask>
-                <ImageBrush ImageSource="/Resources/StarZLogoDark.png" RenderOptions.BitmapScalingMode="HighQuality" />
-            </Rectangle.OpacityMask>
-        </Rectangle>
+        <!-- <Rectangle.OpacityMask> -->
+              <!--  <ImageBrush ImageSource="/Resources/StarZLogoDark.png" RenderOptions.BitmapScalingMode="HighQuality" /> -->
+           <!-- </Rectangle.OpacityMask> -->
+       <!-- </Rectangle> -->
 
 
         <TextBlock x:Name="StarZText" Text="Lumina" Foreground="{DynamicResource AccentColorGradientBrush}" FontSize="20" FontFamily="Outfit" FontWeight="SemiBold" Margin="122,38,702,494">
@@ -1519,7 +1519,7 @@
                         <Line X1="0" Y1="0" X2="0" Y2="50" Stroke="{DynamicResource IconColor}" StrokeThickness="2" Margin="278,246,559,309" />
 
 
-                        <Rectangle x:Name="ImportThemes" ToolTip="Import a valid StarZ Theme .szt file and apply it." Style="{DynamicResource IconsStyle}" Margin="292,247,497,310" MouseLeftButtonDown="ImportThemes_MouseLeftButtonDown" Panel.ZIndex="4">
+                        <Rectangle x:Name="ImportThemes" ToolTip="Import a valid Luna Theme .szt file and apply it." Style="{DynamicResource IconsStyle}" Margin="292,247,497,310" MouseLeftButtonDown="ImportThemes_MouseLeftButtonDown" Panel.ZIndex="4">
                             <Rectangle.OpacityMask>
                                 <ImageBrush ImageSource="/Resources/Import.png" RenderOptions.BitmapScalingMode="HighQuality" />
                             </Rectangle.OpacityMask>

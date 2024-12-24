@@ -13,7 +13,7 @@ namespace StarZLauncher.Classes
 {
     public static class ThemesManager
     {
-        private static readonly string themeFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Lumina Launcher", "Theme", "luna.szt");
+        private static readonly string themeFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Lumina Launcher", "Theme", "Luna.szt");
         private static readonly string ActiveColor = "#F6F8FA";
         private static readonly string logFileName = "ThemesManager.txt";
 
@@ -323,8 +323,8 @@ namespace StarZLauncher.Classes
             {
                 // Show an OpenFileDialog to let the user select the theme file to import
                 using OpenFileDialog openFileDialog = new();
-                openFileDialog.Filter = "StarZ Theme files (*.szt)|*.szt";
-                openFileDialog.Title = "Select a valid StarZ Theme .szt file to import";
+                openFileDialog.Filter = "Luna Theme files (*.szt)|*.szt";
+                openFileDialog.Title = "Select a valid Luna Theme .szt file to import";
 
                 if (openFileDialog.ShowDialog() != DialogResult.OK)
                 {

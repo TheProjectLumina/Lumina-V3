@@ -54,7 +54,7 @@ E:\github\luminabe-dev\StarZ Launcher\StarZLauncher\obj\Debug\net48\StarZLaunche
 E:\github\luminabe-dev\StarZ Launcher\StarZLauncher\obj\Debug\net48\StarZLauncher.AssemblyInfo.cs
 E:\github\luminabe-dev\StarZ Launcher\StarZLauncher\obj\Debug\net48\StarZLauncher.csproj.CoreCompileInputs.cache
 E:\github\luminabe-dev\StarZ Launcher\StarZLauncher\obj\Debug\net48\StarZLauncher.sourcelink.json
-E:\github\luminabe-dev\StarZ Launcher\StarZLauncher\obj\Debug\net48\StarZLauncher.csproj.Fody.CopyLocal.cache
-E:\github\luminabe-dev\StarZ Launcher\StarZLauncher\obj\Debug\net48\StarZLauncher.csproj.Fody.RuntimeCopyLocal.cache
 E:\github\luminabe-dev\StarZ Launcher\StarZLauncher\obj\Debug\net48\StarZLauncher.exe
 E:\github\luminabe-dev\StarZ Launcher\StarZLauncher\obj\Debug\net48\StarZLauncher.pdb
+E:\github\luminabe-dev\StarZ Launcher\StarZLauncher\obj\Debug\net48\StarZLauncher.csproj.Fody.CopyLocal.cache
+E:\github\luminabe-dev\StarZ Launcher\StarZLauncher\obj\Debug\net48\StarZLauncher.csproj.Fody.RuntimeCopyLocal.cache

@@ -30,16 +30,16 @@ public partial class App : Application
             }
 
             string documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-            string starZLauncherPath = Path.Combine(documentsPath, "StarZ Launcher");
-            string VersionsPath = Path.Combine(starZLauncherPath, "Versions");
-            string profilesPath = Path.Combine(starZLauncherPath, "Profiles");
-            string musicsPath = Path.Combine(starZLauncherPath, "Musics");
-            string dllsPath = Path.Combine(starZLauncherPath, "Mods");
-            string logsPath = Path.Combine(starZLauncherPath, "Logs");
-            string versionFilePath = Path.Combine(starZLauncherPath, "LauncherVersion.txt");
-            string oldConfigFilePath = Path.Combine(starZLauncherPath, "Config.txt");
+            string StarZLauncherPath = Path.Combine(documentsPath, "Luna Launcher");
+            string VersionsPath = Path.Combine(StarZLauncherPath, "Versions");
+            string profilesPath = Path.Combine(StarZLauncherPath, "Profiles");
+            string musicsPath = Path.Combine(StarZLauncherPath, "Musics");
+            string dllsPath = Path.Combine(StarZLauncherPath, "Mods");
+            string logsPath = Path.Combine(StarZLauncherPath, "Logs");
+            string versionFilePath = Path.Combine(StarZLauncherPath, "LauncherVersion.txt");
+            string oldConfigFilePath = Path.Combine(StarZLauncherPath, "Config.txt");
 
-            EnsureDirectoryExists(starZLauncherPath);
+            EnsureDirectoryExists(StarZLauncherPath);
             EnsureDirectoryExists(VersionsPath);
             EnsureDirectoryExists(dllsPath);
             EnsureDirectoryExists(profilesPath);
