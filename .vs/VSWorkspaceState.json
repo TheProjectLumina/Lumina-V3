@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\StarZ Launcher",
+    "\\StarZ Launcher\\StarZLauncher",
+    "\\StarZ Launcher\\StarZLauncher\\bin",
+    "\\StarZ Launcher\\StarZLauncher\\bin\\Debug",
+    "\\StarZ Launcher\\StarZLauncher\\bin\\Debug\\net48"
   ],
-  "SelectedNode": "\\StarZLauncher.sln",
+  "SelectedNode": "\\StarZ Launcher\\StarZLauncher.sln",
   "PreviewInSolutionExplorer": false
 }

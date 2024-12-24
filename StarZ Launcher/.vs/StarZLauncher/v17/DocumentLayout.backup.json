@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "E:\\github\\luminabe-dev\\StarZ Launcher\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|StarZLauncher\\StarZLauncher.csproj|e:\\github\\luminabe-dev\\starz launcher\\starzlauncher\\starzlauncher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|StarZLauncher\\StarZLauncher.csproj|solutionrelative:starzlauncher\\starzlauncher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|StarZLauncher\\StarZLauncher.csproj|e:\\github\\luminabe-dev\\starz launcher\\starzlauncher\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|StarZLauncher\\StarZLauncher.csproj|solutionrelative:starzlauncher\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|StarZLauncher\\StarZLauncher.csproj|e:\\github\\luminabe-dev\\starz launcher\\starzlauncher\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|StarZLauncher\\StarZLauncher.csproj|solutionrelative:starzlauncher\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|StarZLauncher\\StarZLauncher.csproj|e:\\github\\luminabe-dev\\starz launcher\\starzlauncher\\classes\\themesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|StarZLauncher\\StarZLauncher.csproj|solutionrelative:starzlauncher\\classes\\themesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|StarZLauncher\\StarZLauncher.csproj|e:\\github\\luminabe-dev\\starz launcher\\starzlauncher\\starzlauncher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|StarZLauncher\\StarZLauncher.csproj|solutionrelative:starzlauncher\\starzlauncher.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|StarZLauncher\\StarZLauncher.csproj|e:\\github\\luminabe-dev\\starz launcher\\starzlauncher\\themes\\colorsmanager.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -26,11 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ThemesManager.cs",
+              "DocumentMoniker": "E:\\github\\luminabe-dev\\StarZ Launcher\\StarZLauncher\\Classes\\ThemesManager.cs",
+              "RelativeDocumentMoniker": "StarZLauncher\\Classes\\ThemesManager.cs",
+              "ToolTip": "E:\\github\\luminabe-dev\\StarZ Launcher\\StarZLauncher\\Classes\\ThemesManager.cs",
+              "RelativeToolTip": "StarZLauncher\\Classes\\ThemesManager.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAIAywDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T16:56:18.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\github\\luminabe-dev\\StarZ Launcher\\StarZLauncher\\Windows\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "StarZLauncher\\Windows\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\github\\luminabe-dev\\StarZ Launcher\\StarZLauncher\\Windows\\MainWindow.xaml.cs",
+              "RelativeToolTip": "StarZLauncher\\Windows\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAGgBAAAAAAAAAAAWwHwBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T16:13:12.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "E:\\github\\luminabe-dev\\StarZ Launcher\\StarZLauncher\\Windows\\MainWindow.xaml",
               "RelativeDocumentMoniker": "StarZLauncher\\Windows\\MainWindow.xaml",
@@ -42,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ColorsManager.xaml",
               "DocumentMoniker": "E:\\github\\luminabe-dev\\StarZ Launcher\\StarZLauncher\\Themes\\ColorsManager.xaml",
               "RelativeDocumentMoniker": "StarZLauncher\\Themes\\ColorsManager.xaml",
@@ -54,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "PackageHelper.cs",
               "DocumentMoniker": "E:\\github\\luminabe-dev\\StarZ Launcher\\StarZLauncher\\Classes\\PackageHelper.cs",
               "RelativeDocumentMoniker": "StarZLauncher\\Classes\\PackageHelper.cs",
@@ -62,12 +96,11 @@
               "RelativeToolTip": "StarZLauncher\\Classes\\PackageHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T11:24:46.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T11:24:46.865Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "StarZLauncher.csproj",
               "DocumentMoniker": "E:\\github\\luminabe-dev\\StarZ Launcher\\StarZLauncher\\StarZLauncher.csproj",
               "RelativeDocumentMoniker": "StarZLauncher\\StarZLauncher.csproj",

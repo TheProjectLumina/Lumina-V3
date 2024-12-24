@@ -37,35 +37,35 @@ namespace StarZLauncher.Classes
             SaveThemesToFile(defaultTheme);
         }
 
-        private static Dictionary<string, string> CreateLightThemeColorDictionary() => new()
-        {
-            { "AccentColor1", "#FF0044EA" },
-            { "AccentColor2", "#FF00C7ED" },
-            { "PrimaryBackgroundColor", "#FFCCD0D1" },
-            { "SecondaryBackgroundColor", "#FFF6F8FA" },
-            { "IconColor", "#FF72767C" },
-            { "TextColor", "#FF242C35" }
-        };
+     private static Dictionary<string, string> CreateLightThemeColorDictionary() => new()
+{
+    { "AccentColor1", "#FFC0C0C0" }, // Silver
+    { "AccentColor2", "#FF808080" }, // Darker Silver
+    { "PrimaryBackgroundColor", "#FFCCD0D1" },
+    { "SecondaryBackgroundColor", "#FFF6F8FA" },
+    { "IconColor", "#FF72767C" },
+    { "TextColor", "#FF242C35" }
+};
 
-        private static Dictionary<string, string> CreateDarkThemeColorDictionary() => new()
-        {
-            { "AccentColor1", "#FF0044EA" },
-            { "AccentColor2", "#FF00C7ED" },
-            { "PrimaryBackgroundColor", "#FF171D22" },
-            { "SecondaryBackgroundColor", "#FF242C35" },
-            { "IconColor", "#FFF6F8FA" },
-            { "TextColor", "#FFF6F8FA" }
-        };
+private static Dictionary<string, string> CreateDarkThemeColorDictionary() => new()
+{
+    { "AccentColor1", "#FFC0C0C0" }, // Silver
+    { "AccentColor2", "#FF808080" }, // Darker Silver
+    { "PrimaryBackgroundColor", "#FF171D22" },
+    { "SecondaryBackgroundColor", "#FF242C35" },
+    { "IconColor", "#FFF6F8FA" },
+    { "TextColor", "#FFF6F8FA" }
+};
 
-        private static Dictionary<string, string> CreateCustomThemeColorDictionary() => new()
-        {
-            { "AccentColor1", "" },
-            { "AccentColor2", "" },
-            { "PrimaryBackgroundColor", "" },
-            { "SecondaryBackgroundColor", "" },
-            { "IconColor", "" },
-            { "TextColor", "" }
-        };
+private static Dictionary<string, string> CreateCustomThemeColorDictionary() => new()
+{
+    { "AccentColor1", "#FFC0C0C0" }, // Silver
+    { "AccentColor2", "#FF808080" }, // Darker Silver
+    { "PrimaryBackgroundColor", "#FF171D22" },
+    { "SecondaryBackgroundColor", "#FF242C35" },
+    { "IconColor", "#FFF6F8FA" },
+    { "TextColor", "#FFF6F8FA" }
+};
 
         private static void SaveThemesToFile(object themes)
         {

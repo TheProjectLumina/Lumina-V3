@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/StarZ.ico")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("resources/starz.ico")]
 
 

@@ -12,17 +12,17 @@
 
 
 
-            <Border Background="#111111" CornerRadius="20" BorderBrush="AliceBlue" BorderThickness="0.5"/>
+            <Border Background="#111111" CornerRadius="20" BorderBrush="AntiqueWhite" BorderThickness="0.5"/>
 
 
 
-            <Image x:Name="OpeningLogo" Source="/Resources/StarZLogo.png" Margin="378,156,378,282" RenderOptions.BitmapScalingMode="HighQuality"/>
+            <Image x:Name="OpeningLogo" Source="/Resources/StarZLogo.png" Margin="378,189,378,249" RenderOptions.BitmapScalingMode="HighQuality"/>
 
 
-            <Border Background="White" CornerRadius="2" BorderThickness="1" Margin="326,335,326,224">
+            <Border Background="White" CornerRadius="2" BorderThickness="1" Margin="326,386,326,173">
 
 
-                <ProgressBar Minimum="0" Maximum="1" Value="0" Background="Transparent" BorderThickness="0">
+                <ProgressBar Minimum="0" Maximum="1" Value="0" Background="Transparent" BorderThickness="0" Margin="-862,76,862,-76">
 
 
                     <ProgressBar.Foreground>
@@ -87,19 +87,19 @@
         <Border x:Name="SideBarBackground" Background="{DynamicResource SecondaryBackgroundColor}" Opacity="0.7" CornerRadius="15" Width="55" HorizontalAlignment="Left" Margin="25,138,0,25"/>
 
 
-        <Border x:Name="TopBarBackground" Background="{DynamicResource SecondaryBackgroundColor}" Opacity="0.7" BorderThickness="0" CornerRadius="15" Margin="25,25,630,448"/>
+        <Border x:Name="TopBarBackground" Background="{DynamicResource SecondaryBackgroundColor}" Opacity="0.7" BorderThickness="0" CornerRadius="15" Margin="52,25,160,448"/>
 
 
-        <Border x:Name="TopBarBackground2" Background="{DynamicResource SecondaryBackgroundColor}" Opacity="0.7" BorderThickness="0" CornerRadius="15" Margin="313,25,25,448"/>
+        <Border x:Name="TopBarBackground2" Background="{DynamicResource SecondaryBackgroundColor}" Opacity="0.7" BorderThickness="0" CornerRadius="15" Margin="766,25,25,448"/>
 
 
         <Border x:Name="MainBackground" Background="{DynamicResource SecondaryBackgroundColor}" Opacity="0.7" CornerRadius="15" Width="757" HorizontalAlignment="Left" Margin="122,138,0,25"/>
 
 
-        <Border x:Name="LogoBackground" Background="{DynamicResource SecondaryBackgroundColor}" CornerRadius="15" Width="80" Height="80" Margin="32,30,792,454"/>
+        <Border x:Name="LogoBackground" Background="{DynamicResource SecondaryBackgroundColor}" CornerRadius="15" Width="80" Height="80" Margin="-178,119,1002,365"/>
 
 
-        <Rectangle Name="DragWindow" Fill="Transparent" Height="91" Panel.ZIndex="2" Width="854" Opacity="0.1" Canvas.Left="14" Canvas.Top="27" HorizontalAlignment="Center" MouseLeftButtonDown="WindowToolbar_MouseLeftButtonDown" VerticalAlignment="Top" Margin="0,25,0,0"/>
+        <Rectangle Name="DragWindow" Fill="Transparent" Height="91" Panel.ZIndex="2" Width="894" Opacity="0.1" Canvas.Left="14" Canvas.Top="27" HorizontalAlignment="Left" MouseLeftButtonDown="WindowToolbar_MouseLeftButtonDown" VerticalAlignment="Top"/>
 
 
 
@@ -119,32 +119,32 @@
         </Rectangle>
 
         <!-- Rectangle to apply the color tint -->
-        <Rectangle x:Name="StarZLogoPart2" Fill="{DynamicResource AccentColorGradientBrush}" RenderOptions.BitmapScalingMode="HighQuality" Width="50" Height="50" HorizontalAlignment="Left" Margin="47,46,0,468">
+        <Rectangle x:Name="StarZLogoPart2" Fill="{DynamicResource AccentColorGradientBrush}" RenderOptions.BitmapScalingMode="HighQuality" Width="50" Height="50" HorizontalAlignment="Left" Margin="77,41,0,473">
             <!-- Tint color -->
             <Rectangle.OpacityMask>
                 <ImageBrush ImageSource="/Resources/StarZLogoColoredPart.png" RenderOptions.BitmapScalingMode="HighQuality" />
             </Rectangle.OpacityMask>
         </Rectangle>
         <!-- Rectangle to apply the color tint -->
-      <!--  <Rectangle x:Name="StarZLogoPart1" Fill="{DynamicResource IconColor}" RenderOptions.BitmapScalingMode="HighQuality" Width="50" Height="50" HorizontalAlignment="Left" Margin="47,46,0,468"> -->
-            <!-- Tint color -->
+        <!--  <Rectangle x:Name="StarZLogoPart1" Fill="{DynamicResource IconColor}" RenderOptions.BitmapScalingMode="HighQuality" Width="50" Height="50" HorizontalAlignment="Left" Margin="47,46,0,468"> -->
+        <!-- Tint color -->
         <!-- <Rectangle.OpacityMask> -->
-              <!--  <ImageBrush ImageSource="/Resources/StarZLogoDark.png" RenderOptions.BitmapScalingMode="HighQuality" /> -->
-           <!-- </Rectangle.OpacityMask> -->
-       <!-- </Rectangle> -->
+        <!--  <ImageBrush ImageSource="/Resources/StarZLogoDark.png" RenderOptions.BitmapScalingMode="HighQuality" /> -->
+        <!-- </Rectangle.OpacityMask> -->
+        <!-- </Rectangle> -->
 
 
-        <TextBlock x:Name="StarZText" Text="Lumina" Foreground="{DynamicResource AccentColorGradientBrush}" FontSize="20" FontFamily="Outfit" FontWeight="SemiBold" Margin="122,38,702,494">
+        <TextBlock x:Name="StarZText" Text="Lumina" Foreground="{DynamicResource AccentColorGradientBrush}" FontSize="20" FontFamily="Outfit" FontWeight="SemiBold" Margin="156,39,668,493">
 
 
         </TextBlock>
 
 
-        <TextBlock x:Name="VersionText" Text="Launcher v0.2" FontSize="16" FontFamily="Outfit" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="122,71,668,472"/>
+        <TextBlock x:Name="VersionText" Text="Launcher v0.2" FontSize="16" FontFamily="Outfit" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="156,70,634,473"/>
 
 
 
-        <TabControl x:Name="SideBarTabControl" BorderThickness="0" Background="Transparent" Height="656" Width="904" HorizontalAlignment="Center" VerticalAlignment="Center" SelectionChanged="SideBarTabControl_SelectionChanged">
+        <TabControl x:Name="SideBarTabControl" BorderThickness="0" Background="Transparent" Height="656" Width="904" HorizontalAlignment="Center" VerticalAlignment="Top" SelectionChanged="SideBarTabControl_SelectionChanged" Margin="0,-44,0,0">
 
 
 
@@ -243,7 +243,7 @@
             <!-- Tabs -->
 
 
-            <TabItem x:Name="HomeTabItem" Foreground="AliceBlue" Height="44" Margin="28,198,-29,-198">
+            <TabItem x:Name="HomeTabItem" Foreground="AntiqueWhite" Height="44" Margin="28,198,-29,-198">
 
 
 
@@ -266,7 +266,7 @@
 
 
 
-                    <TextBlock x:Name="HomeTextBlock" Text="Home" FontSize="50" FontFamily="Outfit" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="275,35,426,514"/>
+                    <TextBlock x:Name="HomeTextBlock" Text="Home" FontSize="50" FontFamily="Outfit" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="508,33,193,516"/>
 
 
 
@@ -304,7 +304,7 @@
                         <Grid Visibility="Visible" x:Name="MainMenu">
 
 
-                            <Border x:Name="HomeBackground1" Background="{DynamicResource SecondaryBackgroundColor}" CornerRadius="20" Margin="80,160,317,265">
+                            <Border x:Name="HomeBackground1" Background="{DynamicResource SecondaryBackgroundColor}" CornerRadius="20" Margin="80,160,54,265">
 
 
                                 <Border.Effect>
@@ -320,7 +320,7 @@
 
 
 
-                            <Border x:Name="HomeBackground2" Background="{DynamicResource SecondaryBackgroundColor}" CornerRadius="20" Margin="80,366,48,97">
+                            <Border x:Name="HomeBackground2" Background="{DynamicResource SecondaryBackgroundColor}" CornerRadius="20" Margin="80,366,434,97">
 
 
                                 <Border.Effect>
@@ -336,7 +336,7 @@
 
 
 
-                            <Border x:Name="HomeBackground3" Background="{DynamicResource SecondaryBackgroundColor}" CornerRadius="20" Margin="548,160,48,265">
+                            <Border x:Name="HomeBackground3" Background="{DynamicResource SecondaryBackgroundColor}" CornerRadius="20" Margin="456,374,54,92">
 
 
                                 <Border.Effect>
@@ -351,23 +351,31 @@
                             </Border>
 
 
-                            <Viewbox Stretch="Uniform" Margin="107,175,344,390">
+                            <Viewbox Stretch="Uniform" Margin="250,174,250,391" RenderTransformOrigin="0.506,0.557">
                                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                                    <TextBlock x:Name="WelcomeBackTextBlock" Text="Greetings" FontSize="30" FontFamily="Outfit" Foreground="{DynamicResource TextColor}" FontWeight="Medium" TextAlignment="Center" Margin="0,0,0,0"/>
-                                    <TextBlock x:Name="WelcomeUsernameTextBlock" Text=" !" FontSize="30" FontFamily="Outfit" Foreground="{DynamicResource TextColor}" FontWeight="Medium" TextAlignment="Center" Margin="0,0,0,0"/>
+                                    <TextBlock x:Name="WelcomeBackTextBlock" Text="Greetings" FontSize="30" FontFamily="Outfit" Foreground="{DynamicResource TextColor}" FontWeight="Medium" TextAlignment="Center" HorizontalAlignment="Center"/>
+                                    <TextBlock x:Name="WelcomeUsernameTextBlock" Text=" !" FontSize="30" FontFamily="Outfit" Foreground="{DynamicResource TextColor}" FontWeight="Medium" TextAlignment="Center"/>
                                 </StackPanel>
                             </Viewbox>
 
 
 
-                            <TextBlock x:Name="DiscordServerTextBlock" Text="Join our Discord server !" FontSize="30" FontFamily="Outfit" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="208,388,287,177"/>
+                            <TextBlock x:Name="DiscordServerTextBlock" FontSize="30" FontFamily="Outfit" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="208,388,457,177"><Run Text="Discord"/><LineBreak/><Run/></TextBlock>
 
 
-                            <TextBlock x:Name="DiscordServerTextBlock2" Text="To get support or chat with other people from our community." FontSize="18" FontFamily="Outfit" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="208,427,121,145"/>
+                            <TextBlock x:Name="DiscordServerTextBlock2" Text="Lumina Community" FontSize="18" FontFamily="Outfit" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="208,426,457,113" RenderTransformOrigin="0.736,0.531"/>
 
 
                             <!-- Rectangle to apply the color tint -->
-                            <Rectangle x:Name="DiscordIconRectangle" Fill="{DynamicResource AccentColorGradientBrush}" RenderOptions.BitmapScalingMode="HighQuality" Width="120" Height="120" Margin="83,378,636,109">
+                            <Rectangle x:Name="DiscordIconRectangle" Fill="{DynamicResource AccentColorGradientBrush}" RenderOptions.BitmapScalingMode="HighQuality" Margin="88,395,653,121" RenderTransformOrigin="0.5,0.5">
+                                <Rectangle.RenderTransform>
+                                    <TransformGroup>
+                                        <ScaleTransform/>
+                                        <SkewTransform/>
+                                        <RotateTransform Angle="0.74"/>
+                                        <TranslateTransform/>
+                                    </TransformGroup>
+                                </Rectangle.RenderTransform>
                                 <!-- Tint color -->
                                 <Rectangle.OpacityMask>
                                     <ImageBrush ImageSource="/Resources/Discord.png" RenderOptions.BitmapScalingMode="HighQuality" />
@@ -376,29 +384,29 @@
 
 
 
-                            <Button Content="Join &gt;" Cursor="Hand" Foreground="White" FontWeight="Bold" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" Click="JoinDiscordServer_Click" Margin="208,462,561,0" Height="30" VerticalAlignment="Top"/>
+                            <Button Content="Join &gt;" Cursor="Hand" Foreground="White" FontWeight="Bold" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" Click="JoinDiscordServer_Click" Margin="208,462,478,0" Height="30" VerticalAlignment="Top" RenderTransformOrigin="0.526,0.563"/>
 
 
 
-                            <TextBlock x:Name="LauncherVersionText" Text="Launcher Version" FontSize="20px" FontFamily="Outfit" Foreground="{DynamicResource TextColor}" FontWeight="Medium" Margin="562,175,121,404" Panel.ZIndex="3" Opacity="1"/>
+                            <TextBlock x:Name="LauncherVersionText" Text="Launcher Version" FontSize="20px" FontFamily="Outfit" Foreground="{DynamicResource TextColor}" FontWeight="Medium" Margin="484,398,199,181" Panel.ZIndex="3" Opacity="1"/>
 
 
 
-                            <Label x:Name="LabelVersion" Content="N/A" FontFamily="Outfit" FontSize="40px" Foreground="{DynamicResource TextColor}" FontWeight="Bold" Margin="556,196,115,343" Panel.ZIndex="3" Opacity="1" HorizontalContentAlignment="Left"/>
+                            <Label x:Name="LabelVersion" Content="N/A" FontFamily="Outfit" FontSize="40px" Foreground="{DynamicResource TextColor}" FontWeight="Bold" Margin="484,438,199,102" Panel.ZIndex="3" Opacity="1" HorizontalContentAlignment="Left"/>
 
 
 
-                            <Button Height="58" x:Name="LaunchButton" Content="PLAY" FontWeight="DemiBold" FontSize="25px" RenderOptions.BitmapScalingMode="HighQuality" Cursor="Hand" Foreground="AliceBlue" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Click="LaunchButton_OnLeftClick" MouseRightButtonDown="LaunchButton_OnRightClick" Margin="107,230,344,0">
+                            <Button Height="58" x:Name="LaunchButton" Content="PLAY" FontWeight="DemiBold" FontSize="25px" RenderOptions.BitmapScalingMode="HighQuality" Cursor="Hand" Foreground="AntiqueWhite" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Click="LaunchButton_OnLeftClick" MouseRightButtonDown="LaunchButton_OnRightClick" Margin="250,241,250,0">
                             </Button>
 
 
 
-                            <Button x:Name="ShowFullList" Template="{StaticResource DefaultButtons}" Content="Manage Minecraft Versions" Foreground="AliceBlue" FontFamily="Outfit" Background="Transparent" Cursor="Hand" BorderThickness="0" Margin="562,292,119,281" Click="ShowFullVersionsList_Click">
+                            <Button x:Name="ShowFullList" Template="{StaticResource DefaultButtons}" Content="Switch Minecraft Version" Foreground="AntiqueWhite" FontFamily="Outfit" Background="Transparent" Cursor="Hand" BorderThickness="0" Margin="620,462,61,111" Click="ShowFullVersionsList_Click" RenderTransformOrigin="0.654,1.424">
                             </Button>
 
 
 
-                            <Label x:Name="CurrentVersion" Content="N/A" Foreground="{DynamicResource TextColor}" FontSize="12" FontFamily="Outfit" HorizontalContentAlignment="Center" FontWeight="Medium" Margin="105,304,342,271"/>
+                            <Label x:Name="CurrentVersion" Content="N/A" Foreground="{DynamicResource TextColor}" FontSize="12" FontFamily="Outfit" HorizontalContentAlignment="Center" FontWeight="Medium" Margin="250,310,250,265"/>
 
 
                         </Grid>
@@ -447,7 +455,7 @@
                                                     <Grid>
 
 
-                                                        <Border Background="AliceBlue" Opacity="0.07" CornerRadius="5"/>
+                                                        <Border Background="AntiqueWhite" Opacity="0.07" CornerRadius="5"/>
 
 
                                                         <Track IsDirectionReversed="True" Name="PART_Track" Visibility="Visible">
@@ -456,7 +464,7 @@
                                                             <Track.Thumb>
 
 
-                                                                <Thumb Width="14" Height="200" Background="AliceBlue" Opacity="0.7">
+                                                                <Thumb Width="14" Height="200" Background="AntiqueWhite" Opacity="0.7">
 
 
                                                                     <Thumb.Template>
@@ -523,7 +531,7 @@
 
 
 
-            <TabItem x:Name="ModulesTabItem" Foreground="AliceBlue" Height="44" Margin="-16,263,15,-263">
+            <TabItem x:Name="ModulesTabItem" Foreground="AntiqueWhite" Height="44" Margin="-16,263,15,-263">
 
 
 
@@ -543,14 +551,18 @@
 
 
                 <Grid Margin="63,0,-2,0" Height="607">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="172*"/>
+                        <RowDefinition Height="435*"/>
+                    </Grid.RowDefinitions>
 
 
 
-                    <TextBlock x:Name="ModulesTextBlock" Text="Modules" FontSize="50" FontFamily="Outfit" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="275,35,361,502"/>
+                    <TextBlock x:Name="ModulesTextBlock" Text="Modules" FontSize="50" FontFamily="Outfit" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="275,35,361,67"/>
 
 
 
-                    <Grid Height="607" Visibility="Visible" x:Name="ModulesMenu" Opacity="1.0">
+                    <Grid Height="607" Visibility="Visible" x:Name="ModulesMenu" Opacity="1.0" Grid.RowSpan="2">
 
 
                         <Grid.Triggers>
@@ -715,7 +727,7 @@
 
 
 
-                        <Button x:Name="AddDLLsButton" Content="+" Panel.ZIndex="4" ToolTip="Add a Mod from your computer." HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="DemiBold" FontSize="40px" RenderOptions.BitmapScalingMode="HighQuality" Cursor="Hand" Foreground="AliceBlue" FontFamily="Inter" Template="{StaticResource DefaultButtons}" Margin="730,467,63,92" Click="AddDllsButton_OnLeftClick">
+                        <Button x:Name="AddDLLsButton" Content="+" Panel.ZIndex="4" ToolTip="Add a Mod from your computer." HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="DemiBold" FontSize="40px" RenderOptions.BitmapScalingMode="HighQuality" Cursor="Hand" Foreground="AntiqueWhite" FontFamily="Inter" Template="{StaticResource DefaultButtons}" Margin="730,467,63,92" Click="AddDllsButton_OnLeftClick">
                         </Button>
 
 
@@ -731,7 +743,7 @@
 
 
 
-            <TabItem x:Name="ToolsTabItem" Foreground="AliceBlue" Height="44" Margin="-60,327,59,-327">
+            <TabItem x:Name="ToolsTabItem" Foreground="AntiqueWhite" Height="44" Margin="-60,327,59,-327">
 
 
 
@@ -822,7 +834,7 @@
 
 
 
-                        <Button Height="26" x:Name="TexturePacksFolderButton" Panel.ZIndex="3" Content="Textures Packs Folder" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="AliceBlue" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="423,162,0,0" Click="TexturePackButton_OnLeftClick" Width="116"/>
+                        <Button Height="26" x:Name="TexturePacksFolderButton" Panel.ZIndex="3" Content="Textures Packs Folder" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="AntiqueWhite" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="423,162,0,0" Click="TexturePackButton_OnLeftClick" Width="116"/>
 
 
 
@@ -842,11 +854,11 @@
 
 
 
-                        <Button Height="26" Panel.ZIndex="3" x:Name="ProfileSave" Content="Save" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="AliceBlue" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="199,450,0,0" Click="ProfileSave_Click" Width="60"/>
+                        <Button Height="26" Panel.ZIndex="3" x:Name="ProfileSave" Content="Save" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="AntiqueWhite" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="199,450,0,0" Click="ProfileSave_Click" Width="60"/>
 
 
 
-                        <Button Height="26" Panel.ZIndex="3" x:Name="ProfileApply" Content="Apply" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="AliceBlue" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="129,450,0,0" Click="ProfileApply_Click" Width="60"/>
+                        <Button Height="26" Panel.ZIndex="3" x:Name="ProfileApply" Content="Apply" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="AntiqueWhite" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="129,450,0,0" Click="ProfileApply_Click" Width="60"/>
 
 
 
@@ -874,7 +886,7 @@
 
 
 
-                        <Button Height="26" Panel.ZIndex="3" x:Name="Cosmetic" Content="Select" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="AliceBlue" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="404,450,0,0" Click="Persona_Click" Width="60"/>
+                        <Button Height="26" Panel.ZIndex="3" x:Name="Cosmetic" Content="Select" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="AntiqueWhite" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="404,450,0,0" Click="Persona_Click" Width="60"/>
 
 
 
@@ -898,11 +910,11 @@
 
 
 
-                        <Button Height="26" Panel.ZIndex="3" x:Name="Shader" Content="Install" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="AliceBlue" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="610,450,0,0" Click="ShaderInstall_Click" Width="60"/>
+                        <Button Height="26" Panel.ZIndex="3" x:Name="Shader" Content="Install" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="AntiqueWhite" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="610,450,0,0" Click="ShaderInstall_Click" Width="60"/>
 
 
 
-                        <Button Height="26" Panel.ZIndex="3" x:Name="ShaderRemove" Content="Remove" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="AliceBlue" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="680,450,0,0" Click="ShaderRemove_Click" Width="60"/>
+                        <Button Height="26" Panel.ZIndex="3" x:Name="ShaderRemove" Content="Remove" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="AntiqueWhite" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="680,450,0,0" Click="ShaderRemove_Click" Width="60"/>
 
 
 
@@ -926,11 +938,11 @@
 
 
 
-                        <Button Height="26" Panel.ZIndex="3" x:Name="VSyncEnable" Content="Enable" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="AliceBlue" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="610,257,0,0" Click="VSyncEnable_Click" Width="60"/>
+                        <Button Height="26" Panel.ZIndex="3" x:Name="VSyncEnable" Content="Enable" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="AntiqueWhite" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="610,257,0,0" Click="VSyncEnable_Click" Width="60"/>
 
 
 
-                        <Button Height="26" Panel.ZIndex="3" x:Name="VSyncDisable" Content="Disable" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="AliceBlue" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="680,257,0,0" Click="VSyncDisable_Click" Width="60"/>
+                        <Button Height="26" Panel.ZIndex="3" x:Name="VSyncDisable" Content="Disable" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="AntiqueWhite" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="680,257,0,0" Click="VSyncDisable_Click" Width="60"/>
 
 
 
@@ -945,7 +957,7 @@
 
 
 
-            <TabItem x:Name="MusicPlayerTabItem" Foreground="AliceBlue" Height="44" Margin="-104,392,103,-392">
+            <TabItem x:Name="MusicPlayerTabItem" Foreground="AntiqueWhite" Height="44" Margin="-104,392,103,-392">
 
 
 
@@ -1261,7 +1273,7 @@
 
             </TabItem>
 
-            <TabItem x:Name="ComputerTabItem" Foreground="AliceBlue" Height="44" Margin="-148,457,147,-457">
+            <TabItem x:Name="ComputerTabItem" Foreground="AntiqueWhite" Height="44" Margin="-148,457,147,-457">
 
                 <TabItem.Header>
                     <Rectangle x:Name="ComputerTab" Height="30" Width="30" RenderOptions.BitmapScalingMode="HighQuality" RenderTransformOrigin="0.5, 0.5" Fill="{DynamicResource IconColor}">
@@ -1337,7 +1349,7 @@
 
             </TabItem>
 
-            <TabItem x:Name="SettingsTabItem" Foreground="AliceBlue" Height="44" Margin="-192,523,191,-523">
+            <TabItem x:Name="SettingsTabItem" Foreground="AntiqueWhite" Height="44" Margin="-192,523,191,-523">
 
 
 
@@ -1456,13 +1468,13 @@
                         </Border>
 
 
-                        <Button Height="19" x:Name="MinecraftInstallationButton" Panel.ZIndex="3" Content="Change" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="AliceBlue" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="721,265,0,0" Click="MinecraftInstallationButton_Click" Width="53"/>
+                        <Button Height="19" x:Name="MinecraftInstallationButton" Panel.ZIndex="3" Content="Change" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="AntiqueWhite" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="721,265,0,0" Click="MinecraftInstallationButton_Click" Width="53"/>
 
 
                         <Label x:Name="LauncherFolderLabel" Content="Launcher's Folder" FontSize="15px" Foreground="{DynamicResource TextColor}" FontWeight="Medium" FontFamily="Outfit" HorizontalContentAlignment="Left" Opacity="1" HorizontalAlignment="Left" Margin="467,312,0,0" VerticalAlignment="Top" Width="152"/>
 
 
-                        <Button Height="19" x:Name="LauncherFolderButton" Panel.ZIndex="3" Content="Open" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="AliceBlue" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="721,317,0,0" Click="LauncherFolderButton_Click" Width="53"/>
+                        <Button Height="19" x:Name="LauncherFolderButton" Panel.ZIndex="3" Content="Open" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="AntiqueWhite" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="721,317,0,0" Click="LauncherFolderButton_Click" Width="53"/>
 
 
                         <Border x:Name="LaunchOptionsBackground" Background="{DynamicResource SecondaryBackgroundColor}" CornerRadius="20" Margin="80,376,419,95">
@@ -1495,11 +1507,11 @@
                         </Border>
 
 
-                        <TextBlock x:Name="ThemesTextBlock" Text="Themes" FontSize="15px" FontFamily="Outfit" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="0,222,681,365" HorizontalAlignment="Right" Width="60"/>
+                        <TextBlock x:Name="ThemesTextBlock" Text="Themes" FontSize="15px" FontFamily="Outfit" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="0,248,670,330" HorizontalAlignment="Right" Width="75"/>
 
                         <TextBlock x:Name="CreateACustomThemeTextBlock" Text="Colors Manager" FontSize="15px" FontFamily="Outfit" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="0,311,627,276" HorizontalAlignment="Right" Width="114"/>
 
-                        <TextBlock x:Name="PersonalizeTextBlock" Text="Personalize" FontSize="30" FontFamily="Outfit" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="0,174,586,394" HorizontalAlignment="Right" Width="155"/>
+                        <TextBlock x:Name="PersonalizeTextBlock" Text="Personalize" FontSize="30" FontFamily="Outfit" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="0,188,508,380" HorizontalAlignment="Right" Width="155"/>
 
                         <TextBlock x:Name="GeneralTextBlock" Text="General" FontSize="30" FontFamily="Outfit" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="467,174,253,394"/>
 
@@ -1516,26 +1528,26 @@
                             </Rectangle.OpacityMask>
                         </Rectangle>
 
-                        <Line X1="0" Y1="0" X2="0" Y2="50" Stroke="{DynamicResource IconColor}" StrokeThickness="2" Margin="278,246,559,309" />
+                        <Line X1="0" Y1="0" X2="0" Y2="50" Stroke="{DynamicResource IconColor}" StrokeThickness="2" Margin="280,298,557,257" />
 
 
-                        <Rectangle x:Name="ImportThemes" ToolTip="Import a valid Luna Theme .szt file and apply it." Style="{DynamicResource IconsStyle}" Margin="292,247,497,310" MouseLeftButtonDown="ImportThemes_MouseLeftButtonDown" Panel.ZIndex="4">
+                        <Rectangle x:Name="ImportThemes" ToolTip="Import a valid Luna Theme .szt file and apply it." Style="{DynamicResource IconsStyle}" Margin="-139,599,928,-42" MouseLeftButtonDown="ImportThemes_MouseLeftButtonDown" Panel.ZIndex="4">
                             <Rectangle.OpacityMask>
                                 <ImageBrush ImageSource="/Resources/Import.png" RenderOptions.BitmapScalingMode="HighQuality" />
                             </Rectangle.OpacityMask>
                         </Rectangle>
 
 
-                        <Rectangle x:Name="ExportThemes" ToolTip="Export the current themes as a backup." Style="{DynamicResource IconsStyle}" Margin="347,247,442,310" MouseLeftButtonDown="ExportThemes_MouseLeftButtonDown" Panel.ZIndex="4">
+                        <Rectangle x:Name="ExportThemes" ToolTip="Export the current themes as a backup." Style="{DynamicResource IconsStyle}" Margin="17,700,772,-143" MouseLeftButtonDown="ExportThemes_MouseLeftButtonDown" Panel.ZIndex="4">
                             <Rectangle.OpacityMask>
                                 <ImageBrush ImageSource="/Resources/Export.png" RenderOptions.BitmapScalingMode="HighQuality" />
                             </Rectangle.OpacityMask>
                         </Rectangle>
 
-                        <Button Height="19" x:Name="OpenThemesManager" Panel.ZIndex="3" Content="Open" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="AliceBlue" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="345,312,0,0" Click="OpenThemesManager_Click" Width="53"/>
+                        <Button Height="38" x:Name="OpenThemesManager" Panel.ZIndex="3" Content="Open" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="AntiqueWhite" FontFamily="Outfit" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="306,302,0,0" Click="OpenThemesManager_Click" Width="92"/>
 
 
-                        <CheckBox x:Name="CheckBoxLightMode" Cursor="Hand" Margin="98,247,691,0" VerticalAlignment="Top" Width="50" Height="50" IsEnabled="True" Checked="CheckBoxTheme_Checked" Tag="LightTheme">
+                        <CheckBox x:Name="CheckBoxLightMode" Cursor="Hand" Margin="176,239,613,0" VerticalAlignment="Top" Width="50" Height="50" IsEnabled="True" Checked="CheckBoxTheme_Checked" Tag="LightTheme">
 
 
                             <CheckBox.Resources>
@@ -1591,7 +1603,7 @@
 
 
 
-                        <CheckBox x:Name="CheckBoxDarkMode" Cursor="Hand" Margin="153,247,636,0" VerticalAlignment="Top" IsEnabled="True" Width="50" Height="50" Checked="CheckBoxTheme_Checked" Tag="DarkTheme">
+                        <CheckBox x:Name="CheckBoxDarkMode" Cursor="Hand" Margin="232,239,557,0" VerticalAlignment="Top" IsEnabled="True" Width="50" Height="50" Checked="CheckBoxTheme_Checked" Tag="DarkTheme">
 
 
                             <CheckBox.Resources>
@@ -1645,7 +1657,7 @@
 
                         </CheckBox>
 
-                        <CheckBox x:Name="CheckBoxCustomTheme" Cursor="Hand" Margin="208,247,581,0" VerticalAlignment="Top" IsEnabled="True" Width="50" Height="50" Checked="CheckBoxTheme_Checked" Tag="CustomTheme">
+                        <CheckBox x:Name="CheckBoxCustomTheme" Cursor="Hand" Margin="296,239,493,0" VerticalAlignment="Top" IsEnabled="True" Width="50" Height="50" Checked="CheckBoxTheme_Checked" Tag="CustomTheme">
 
 
                             <CheckBox.Resources>
@@ -1700,7 +1712,7 @@
                         </CheckBox>
 
 
-                        <Rectangle x:Name="CustomIconRectangle" Fill="#F6F8FA" IsHitTestVisible="False" Panel.ZIndex="1" HorizontalAlignment="Left" Opacity="1" RenderOptions.BitmapScalingMode="HighQuality" Width="30" Height="30" Margin="218,257,0,320">
+                        <Rectangle x:Name="CustomIconRectangle" Fill="#F6F8FA" IsHitTestVisible="False" Panel.ZIndex="1" HorizontalAlignment="Left" Opacity="1" RenderOptions.BitmapScalingMode="HighQuality" Width="30" Height="30" Margin="306,247,0,330">
                             <Rectangle.OpacityMask>
                                 <ImageBrush ImageSource="/Resources/Custom.png" RenderOptions.BitmapScalingMode="HighQuality" />
                             </Rectangle.OpacityMask>

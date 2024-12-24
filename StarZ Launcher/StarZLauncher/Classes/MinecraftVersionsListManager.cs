@@ -118,7 +118,7 @@ namespace StarZLauncher.Classes
 
             button = new Button
             {
-                Foreground = new SolidColorBrush(Colors.AliceBlue),
+                Foreground = new SolidColorBrush(Colors.AntiqueWhite),
                 FontSize = 10,
                 Margin = new Thickness(5, 0, 10, 0),
                 FontWeight = FontWeights.Medium,
@@ -293,7 +293,7 @@ namespace StarZLauncher.Classes
 
                 Application.Current.Dispatcher.Invoke(() =>
                 {
-                    InstallStatusText!.Foreground = Brushes.AliceBlue;
+                    InstallStatusText!.Foreground = Brushes.AntiqueWhite;
                     InstallStatusText.Text = "";
                 });
             });
@@ -312,7 +312,7 @@ namespace StarZLauncher.Classes
 
                 Application.Current.Dispatcher.Invoke(() =>
                 {
-                    InstallStatusText!.Foreground = Brushes.AliceBlue;
+                    InstallStatusText!.Foreground = Brushes.AntiqueWhite;
                     InstallStatusText.Text = "";
                 });
             });

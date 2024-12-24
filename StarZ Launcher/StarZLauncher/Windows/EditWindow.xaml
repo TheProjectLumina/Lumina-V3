@@ -31,7 +31,7 @@
             <TextBox x:Name="NewNameTextBox" Opacity="0.7" Background="{DynamicResource SecondaryBackgroundColor}" Foreground="{DynamicResource TextColor}" BorderThickness="0" FontWeight="Medium" FontFamily="Outfit" BorderBrush="#202020" VerticalContentAlignment="Center" Cursor="IBeam" FontSize="15" Margin="0,0,0,10" Height="30">
                 <TextBox.Style>
                     <Style TargetType="TextBox">
-                        <Setter Property="Foreground" Value="AliceBlue"/>
+                        <Setter Property="Foreground" Value="AntiqueWhite"/>
                         <Setter Property="Template">
                             <Setter.Value>
                                 <ControlTemplate TargetType="TextBox">
@@ -69,7 +69,7 @@
             <TextBox x:Name="NewURLTextBox" Opacity="0.7" Background="{DynamicResource SecondaryBackgroundColor}" BorderThickness="0" FontWeight="Medium" FontFamily="Outfit" BorderBrush="#202020" VerticalContentAlignment="Center" Cursor="IBeam" FontSize="15" Foreground="{DynamicResource TextColor}" Margin="0,0,0,10" Height="30">
                 <TextBox.Style>
                     <Style TargetType="TextBox">
-                        <Setter Property="Foreground" Value="AliceBlue"/>
+                        <Setter Property="Foreground" Value="AntiqueWhite"/>
                         <Setter Property="Template">
                             <Setter.Value>
                                 <ControlTemplate TargetType="TextBox">
@@ -96,11 +96,11 @@
         </StackPanel>
 
         <!-- Background Rectangle -->
-        <Rectangle Panel.ZIndex="-1" RadiusX="20" RadiusY="20" Fill="{DynamicResource PrimaryBackgroundColor}" Opacity="1" Stroke="AliceBlue" Margin="0,0,0,0" RenderTransformOrigin="0.5,0.5" StrokeThickness="0"/>
+        <Rectangle Panel.ZIndex="-1" RadiusX="20" RadiusY="20" Fill="{DynamicResource PrimaryBackgroundColor}" Opacity="1" Stroke="AntiqueWhite" Margin="0,0,0,0" RenderTransformOrigin="0.5,0.5" StrokeThickness="0"/>
 
         <!-- Buttons -->
-        <Button x:Name="CancelRenameButton" Content="Cancel" FontFamily="Outfit" FontWeight="Bold" Cursor="Hand"  Panel.ZIndex="4" Foreground="AliceBlue" Template="{StaticResource DefaultButtons}" Click="CancelButton_Click" Width="50" Margin="65,286,185,10"/>
-        <Button x:Name="SaveRenameButton" Content="Save" FontFamily="Outfit" FontWeight="Bold" Cursor="Hand"  Panel.ZIndex="4" Foreground="AliceBlue" Template="{StaticResource DefaultButtons}" IsDefault="True" Click="SaveButton_Click" Margin="10,286,240,10"/>
+        <Button x:Name="CancelRenameButton" Content="Cancel" FontFamily="Outfit" FontWeight="Bold" Cursor="Hand"  Panel.ZIndex="4" Foreground="AntiqueWhite" Template="{StaticResource DefaultButtons}" Click="CancelButton_Click" Width="50" Margin="65,286,185,10"/>
+        <Button x:Name="SaveRenameButton" Content="Save" FontFamily="Outfit" FontWeight="Bold" Cursor="Hand"  Panel.ZIndex="4" Foreground="AntiqueWhite" Template="{StaticResource DefaultButtons}" IsDefault="True" Click="SaveButton_Click" Margin="10,286,240,10"/>
     </Grid>
 </Window>
 

@@ -148,7 +148,7 @@ namespace StarZLauncher.Classes
                     {
                         StarZMessageBox.ShowDialog("App package registered successfully! Don't forget to apply your profile!", "Success!", false);
 
-                        InstallStatusText!.Foreground = Brushes.AliceBlue;
+                        InstallStatusText!.Foreground = Brushes.AntiqueWhite;
                         InstallStatusText.Text = "";
                         VersionHelper.LoadInstalledMinecraftVersion();
                     }
@@ -165,7 +165,7 @@ namespace StarZLauncher.Classes
                         // You can log this error for further debugging.
                         LogManager.Log($"Failed to register package: {detailedError}", "PackageRegistration.txt");
 
-                        InstallStatusText!.Foreground = Brushes.AliceBlue;
+                        InstallStatusText!.Foreground = Brushes.AntiqueWhite;
                         InstallStatusText.Text = "";
                     }
                     await MinecraftVersionsListManager.RefreshVersions();
