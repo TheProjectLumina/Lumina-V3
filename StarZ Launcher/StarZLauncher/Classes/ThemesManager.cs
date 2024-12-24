@@ -14,7 +14,7 @@ namespace StarZLauncher.Classes
     public static class ThemesManager
     {
         private static readonly string themeFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Lumina Launcher", "Theme", "Luna.szt");
-        private static readonly string ActiveColor = "#F6F8FA";
+        private static readonly string ActiveColor = "#FF50505";
         private static readonly string logFileName = "ThemesManager.txt";
 
         static ThemesManager()
@@ -37,35 +37,37 @@ namespace StarZLauncher.Classes
             SaveThemesToFile(defaultTheme);
         }
 
-     private static Dictionary<string, string> CreateLightThemeColorDictionary() => new()
+   private static Dictionary<string, string> CreateLightThemeColorDictionary() => new()
 {
-    { "AccentColor1", "#FFC0C0C0" }, // Silver
-    { "AccentColor2", "#FF808080" }, // Darker Silver
-    { "PrimaryBackgroundColor", "#FFCCD0D1" },
-    { "SecondaryBackgroundColor", "#FFF6F8FA" },
-    { "IconColor", "#FF72767C" },
-    { "TextColor", "#FF242C35" }
+    { "AccentColor1", "#FFDADADA" }, // Soft Warm Gray
+    { "AccentColor2", "#FFB0B0B0" }, // Muted Gray
+    { "PrimaryBackgroundColor", "#FFF5F5F5" }, // Warm Off-White
+    { "SecondaryBackgroundColor", "#FFE8E8E8" }, // Light Gray
+    { "IconColor", "#FF505050" }, // Muted Dark Gray
+    { "TextColor", "#FF505050" } // Muted Dark Gray
 };
+
 
 private static Dictionary<string, string> CreateDarkThemeColorDictionary() => new()
 {
-    { "AccentColor1", "#FFC0C0C0" }, // Silver
-    { "AccentColor2", "#FF808080" }, // Darker Silver
-    { "PrimaryBackgroundColor", "#FF171D22" },
-    { "SecondaryBackgroundColor", "#FF242C35" },
-    { "IconColor", "#FFF6F8FA" },
-    { "TextColor", "#FFF6F8FA" }
+    { "AccentColor1", "#FF455A64" }, // Deep Blue-Gray
+    { "AccentColor2", "#FF37474F" }, // Rich Charcoal Gray
+    { "PrimaryBackgroundColor", "#FF181A1F" }, // Very Dark Gray
+    { "SecondaryBackgroundColor", "#FF1C252C" }, // Deeper Charcoal Gray
+    { "IconColor", "#FFCFD8DC" }, // Light Blue-Gray
+    { "TextColor", "#FFCFD8DC" } // Light Blue-Gray
 };
 
 private static Dictionary<string, string> CreateCustomThemeColorDictionary() => new()
 {
-    { "AccentColor1", "#FFC0C0C0" }, // Silver
-    { "AccentColor2", "#FF808080" }, // Darker Silver
-    { "PrimaryBackgroundColor", "#FF171D22" },
-    { "SecondaryBackgroundColor", "#FF242C35" },
-    { "IconColor", "#FFF6F8FA" },
-    { "TextColor", "#FFF6F8FA" }
+    { "AccentColor1", "#FF607D8B" }, // Strong Muted Blue-Gray
+    { "AccentColor2", "#FF546E7A" }, // Rich Blue-Gray
+    { "PrimaryBackgroundColor", "#FF1A1F26" }, // Very Dark Blue-Gray
+    { "SecondaryBackgroundColor", "#FF263238" }, // Deep Charcoal Gray
+    { "IconColor", "#FFB0BEC5" }, // Soft Blue-Gray
+    { "TextColor", "#FFB0BEC5" } // Soft Blue-Gray
 };
+
 
         private static void SaveThemesToFile(object themes)
         {

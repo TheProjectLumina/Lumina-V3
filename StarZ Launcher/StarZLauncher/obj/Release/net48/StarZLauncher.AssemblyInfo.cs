@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Luna Team ©")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A Minecraft Bedrock Edition Launcher")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("5.1.8.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79e86b1cd96b7c2b3320a5753b6b4a6abee8de82")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+028c5e8e1564a61f7737c5161b6d5482876bde10")]
 [assembly: System.Reflection.AssemblyProductAttribute("Luna: A Minecraft Bedrock Edition Launcher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StarZLauncher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("5.1.8.0")]

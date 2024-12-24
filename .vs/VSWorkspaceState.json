@@ -5,7 +5,8 @@
     "\\StarZ Launcher\\StarZLauncher",
     "\\StarZ Launcher\\StarZLauncher\\bin",
     "\\StarZ Launcher\\StarZLauncher\\bin\\Debug",
-    "\\StarZ Launcher\\StarZLauncher\\bin\\Debug\\net48"
+    "\\StarZ Launcher\\StarZLauncher\\bin\\Debug\\net48",
+    "\\StarZ Launcher\\StarZLauncher\\Resources"
   ],
   "SelectedNode": "\\StarZ Launcher\\StarZLauncher.sln",
   "PreviewInSolutionExplorer": false
