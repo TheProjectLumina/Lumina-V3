@@ -39,23 +39,23 @@ namespace StarZLauncher.Classes
 
    private static Dictionary<string, string> CreateLightThemeColorDictionary() => new()
 {
-    { "AccentColor1", "#FF463d3e" }, // Soft Warm Gray
-    { "AccentColor2", "#FF463d3e" }, // Muted Gray
+    { "AccentColor1", "#FF45362b" }, // Soft Warm Gray
+    { "AccentColor2", "#45362b" }, // Muted Gray
     { "PrimaryBackgroundColor", "#FFf6eedf" }, // Warm Off-White
     { "SecondaryBackgroundColor", "#FFfef0de" }, // Light Gray
     { "IconColor", "#FF505050" }, // Muted Dark Gray
-    { "TextColor", "#FFFFFFFF" } // Muted Dark Gray
+    { "TextColor", "#1D1d1d" } // Muted Dark Gray
 };
 
 
 private static Dictionary<string, string> CreateDarkThemeColorDictionary() => new()
 {
-    { "AccentColor1", "#FFc5d1da" }, // Deep Blue-Gray
-    { "AccentColor2", "#FFc5d1da" }, // Rich Charcoal Gray
+    { "AccentColor1", "#FF463d3e" }, // Deep Blue-Gray
+    { "AccentColor2", "#FF463d3e" }, // Rich Charcoal Gray
     { "PrimaryBackgroundColor", "#FF000000" }, // Very Dark Gray
     { "SecondaryBackgroundColor", "#FF151517" }, // Deeper Charcoal Gray
     { "IconColor", "#FFCFD8DC" }, // Light Blue-Gray
-    { "TextColor", "#FFFFFFFF" } // Light Blue-Gray
+    { "TextColor", "#FFFFFF" } // Light Blue-Gray
 };
 
 private static Dictionary<string, string> CreateCustomThemeColorDictionary() => new()
@@ -65,7 +65,7 @@ private static Dictionary<string, string> CreateCustomThemeColorDictionary() => 
     { "PrimaryBackgroundColor", "#FF0f0d0d" }, // Very Dark Blue-Gray
     { "SecondaryBackgroundColor", "#FF263238" }, // Deep Charcoal Gray
     { "IconColor", "#FFB0BEC5" }, // Soft Blue-Gray
-    { "TextColor", "#FFFFFFFF" } // Soft Blue-Gray
+    { "TextColor", "#c0e2c5" } // Soft Blue-Gray
 };
 
 

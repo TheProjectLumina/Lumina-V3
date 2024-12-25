@@ -19,11 +19,11 @@
 
         <!-- Accent Gradient Brush -->
         <LinearGradientBrush x:Key="AccentColorGradientBrush" StartPoint="0.5,0" EndPoint="0.5,1" SpreadMethod="Pad" MappingMode="RelativeToBoundingBox">
-        <GradientStop Color="White" Offset="0.0" />
+        <GradientStop Color="#c0e2c5" Offset="1.0" />
             <!-- Soft Blue-Gray -->
-        <GradientStop Color="White" Offset="0.5" />
+        <GradientStop Color="#c0e2c5" Offset="1.0" />
             <!-- Warm Light Gray -->
-        <GradientStop Color="White" Offset="1.0" />
+        <GradientStop Color="#c0e2c5" Offset="1.0" />
             <!-- Muted Grayish Blue -->
         </LinearGradientBrush>
 
