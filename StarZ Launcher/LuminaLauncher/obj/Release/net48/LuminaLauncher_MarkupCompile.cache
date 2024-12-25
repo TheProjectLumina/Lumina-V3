@@ -1,0 +1,20 @@
+﻿LuminaLauncher
+0.0.1
+
+winexe
+C#
+.cs
+E:\github\luminabe-dev\StarZ Launcher\LuminaLauncher\obj\Release\net48\
+LuminaLauncher
+none
+false
+TRACE;RELEASE;NETFRAMEWORK;NET48;
+E:\github\luminabe-dev\StarZ Launcher\LuminaLauncher\App.xaml
+5479301205
+1-143858454
+211881033024
+2561442426536
+Themes\ColorsManager.xaml;Windows\EditWindow.xaml;Windows\MainWindow.xaml;Windows\StarZColorDialog.xaml;Windows\StarZMessageBox.xaml;
+
+True
+
