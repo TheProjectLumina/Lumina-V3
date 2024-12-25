@@ -6,11 +6,11 @@
         <!-- Opening animation -->
         <Grid x:Name="OpeningAnim" Panel.ZIndex="10" Visibility="Visible">
 
-            <Border Background="#111111" CornerRadius="20" BorderBrush="DimGray" BorderThickness="0.5" Margin="1,0,-1,0"/>
+            <Border Background="#111111" CornerRadius="20" BorderBrush="Silver" BorderThickness="0.5" Margin="1,0,-1,0"/>
 
-            <Image x:Name="OpeningLogo" Source="/Resources/StarZLogo.png" Margin="252,133,252,305" RenderOptions.BitmapScalingMode="HighQuality"/>
+            <Image x:Name="OpeningLogo" Source="/Resources/StarZLogo.png" Margin="239,141,265,297" RenderOptions.BitmapScalingMode="HighQuality"/>
 
-            <Border Background="White" CornerRadius="2" BorderThickness="1" Margin="262,353,262,199">
+            <Border Background="White" CornerRadius="2" BorderThickness="1" Margin="254,362,270,190">
                 <ProgressBar Minimum="0" Maximum="1" Value="0" Background="Transparent" BorderThickness="0" Margin="0,0,0,0">
                     <ProgressBar.Foreground>
                         <LinearGradientBrush EndPoint="0.5,25" StartPoint="0,0">
@@ -42,9 +42,9 @@
 
         <Border x:Name="MainBackground" Background="{DynamicResource SecondaryBackgroundColor}" Opacity="0.7" CornerRadius="15" Width="757" HorizontalAlignment="Left" Margin="122,138,0,25"/>
 
-        <Border x:Name="LogoBackground" Background="{DynamicResource SecondaryBackgroundColor}" CornerRadius="15" Width="80" Height="80" Margin="25,25,799,459"/>
+        <Border x:Name="LogoBackground" Background="{DynamicResource SecondaryBackgroundColor}" CornerRadius="15" Width="0" Height="80" Margin="1335,-391,-511,875"/>
 
-        <Rectangle Name="DragWindow" Fill="Transparent" Height="90" Panel.ZIndex="2" Width="894" Opacity="0.1" Canvas.Left="14" Canvas.Top="27" HorizontalAlignment="Center" MouseLeftButtonDown="WindowToolbar_MouseLeftButtonDown" VerticalAlignment="Top" Margin="0,20,0,0"/>
+        <Rectangle Name="DragWindow" Fill="Transparent" Height="90" Panel.ZIndex="2" Width="894" Opacity="0.1" Canvas.Left="14" Canvas.Top="27" HorizontalAlignment="Left" MouseLeftButtonDown="WindowToolbar_MouseLeftButtonDown" VerticalAlignment="Top" Margin="9,21,0,0"/>
 
         <Rectangle x:Name="CloseButton" Style="{DynamicResource IconsStyle}" Height="34" Margin="825,48,45,482" MouseLeftButtonDown="CloseButton_Click" RenderTransformOrigin="0.5, 0.5" Panel.ZIndex="3">
             <Rectangle.OpacityMask>
@@ -59,15 +59,15 @@
         </Rectangle>
 
         <!-- Rectangle to apply the color tint -->
-        <Image Source="/Resources/StarZLogoColoredPart.png" Width="70" HorizontalAlignment="Left" Margin="35,38,0,456" />
+        <Image Source="/Resources/StarZLogoColoredPart.png" Width="70" HorizontalAlignment="Left" Margin="46,35,0,459" />
 
-        <TextBlock x:Name="StarZText" Text="L U M I N A" Foreground="{DynamicResource TextColor}" FontSize="24" FontFamily="HONOR Sans" Margin="139,54,597,464" FontWeight="Bold"/>
+        <TextBlock x:Name="StarZText" Text="L U M I N A" Foreground="Silver" FontSize="24" FontFamily="HONOR Sans" Margin="139,54,597,464" FontWeight="Bold"/>
 
-        <TextBlock x:Name="VersionText" Text="Launcher v0.2" FontSize="18" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="63991,507,143,36"/>
+        <TextBlock x:Name="VersionText" Text="Launcher v0.2" FontSize="18" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="63991,507,143,36"/>
 
 
 
-        <TabControl x:Name="SideBarTabControl" BorderThickness="0" Background="Transparent" Height="656" Width="904" HorizontalAlignment="Center" VerticalAlignment="Center" SelectionChanged="SideBarTabControl_SelectionChanged" Opacity="0.9">
+        <TabControl x:Name="SideBarTabControl" BorderThickness="0" Background="Transparent" Height="656" Width="904" HorizontalAlignment="Left" VerticalAlignment="Center" SelectionChanged="SideBarTabControl_SelectionChanged" Opacity="0.9" Margin="2,0,0,0">
 
 
 
@@ -106,7 +106,7 @@
 
                                         <Setter TargetName="Border" Property="Background">
                                             <Setter.Value>
-                                                <DynamicResource ResourceKey="DimGray" />
+                                                <DynamicResource ResourceKey="Silver" />
                                             </Setter.Value>
                                         </Setter>
 
@@ -166,7 +166,7 @@
             <!-- Tabs -->
 
 
-            <TabItem x:Name="HomeTabItem" Foreground="DimGray" Height="44" Margin="28,198,-29,-198">
+            <TabItem x:Name="HomeTabItem" Foreground="Silver" Height="44" Margin="28,198,-29,-198">
 
 
 
@@ -193,7 +193,7 @@
 
 
 
-                    <TextBlock x:Name="HomeTextBlock" Text="Home" FontSize="50" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="537,35,164,150"/>
+                    <TextBlock x:Name="HomeTextBlock" Text="Home" FontSize="50" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="537,35,164,150"/>
 
 
 
@@ -280,17 +280,24 @@
 
                             <Viewbox Stretch="Uniform" Margin="250,174,250,391" RenderTransformOrigin="0.506,0.557">
                                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-                                    <TextBlock x:Name="WelcomeBackTextBlock" Text="Greetings" FontSize="30" FontFamily="HONOR Sans" Foreground="{DynamicResource TextColor}" FontWeight="Medium" TextAlignment="Center" HorizontalAlignment="Center"/>
-                                    <TextBlock x:Name="WelcomeUsernameTextBlock" Text=" !" FontSize="30" FontFamily="HONOR Sans" Foreground="{DynamicResource TextColor}" FontWeight="Medium" TextAlignment="Center"/>
+                                    <TextBlock x:Name="WelcomeBackTextBlock" Text="Greetings" FontSize="30" FontFamily="HONOR Sans" FontWeight="Medium" TextAlignment="Center" HorizontalAlignment="Center">
+                                        <TextBlock.Foreground>
+                                            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                                <GradientStop Color="#FFCB6868" Offset="0.005"/>
+                                                <GradientStop Color="#FFB40707" Offset="1"/>
+                                            </LinearGradientBrush>
+                                        </TextBlock.Foreground>
+                                    </TextBlock>
+                                    <TextBlock x:Name="WelcomeUsernameTextBlock" Text=" !" FontSize="30" FontFamily="HONOR Sans" Foreground="Silver" FontWeight="Medium" TextAlignment="Center"/>
                                 </StackPanel>
                             </Viewbox>
 
 
 
-                            <TextBlock x:Name="DiscordServerTextBlock" FontSize="30" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="208,381,457,184"><Run Text="Discord"/><LineBreak/><Run/></TextBlock>
+                            <TextBlock x:Name="DiscordServerTextBlock" FontSize="30" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="208,381,457,184"><Run Text="Discord"/><LineBreak/><Run/></TextBlock>
 
 
-                            <TextBlock x:Name="DiscordServerTextBlock2" Text="Lumina Community" FontSize="18" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="212,421,453,118" RenderTransformOrigin="0.736,0.531"/>
+                            <TextBlock x:Name="DiscordServerTextBlock2" Text="Lumina Community" FontSize="18" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="212,421,453,118" RenderTransformOrigin="0.736,0.531"/>
 
 
                             <!-- Rectangle to apply the color tint -->
@@ -316,29 +323,29 @@
 
 
 
-                            <Button Content="Join" Cursor="Hand" Foreground="DimGray" FontWeight="Bold" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" Click="JoinDiscordServer_Click" Margin="218,460,467,0" Height="30" VerticalAlignment="Top" RenderTransformOrigin="0.526,0.563"/>
+                            <Button Content="Join" Cursor="Hand" Foreground="Silver" FontWeight="Bold" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" Click="JoinDiscordServer_Click" Margin="218,460,467,0" Height="30" VerticalAlignment="Top" RenderTransformOrigin="0.526,0.563"/>
 
 
 
-                            <TextBlock x:Name="LauncherVersionText" Text="Version Switcher" FontSize="24" FontFamily="HONOR Sans" Foreground="{DynamicResource TextColor}" FontWeight="Medium" Margin="554,388,85,191" Panel.ZIndex="3" Opacity="1"/>
+                            <TextBlock x:Name="LauncherVersionText" Text="Version Switcher" FontSize="24" FontFamily="HONOR Sans" Foreground="Silver" FontWeight="Medium" Margin="554,388,85,191" Panel.ZIndex="3" Opacity="1"/>
 
 
 
-                            <Label x:Name="LabelVersion" Content="N/A" FontFamily="HONOR Sans" FontSize="40px" Foreground="{DynamicResource TextColor}" FontWeight="Bold" Margin="407,777,276,-237" Panel.ZIndex="3" Opacity="1" HorizontalContentAlignment="Left"/>
+                            <Label x:Name="LabelVersion" Content="N/A" FontFamily="HONOR Sans" FontSize="40px" Foreground="Silver" FontWeight="Bold" Margin="407,777,276,-237" Panel.ZIndex="3" Opacity="1" HorizontalContentAlignment="Left"/>
 
 
 
-                            <Button Height="58" x:Name="LaunchButton" Content="PLAY" FontWeight="DemiBold" FontSize="25px" RenderOptions.BitmapScalingMode="HighQuality" Cursor="Hand" Foreground="DimGray" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Click="LaunchButton_OnLeftClick" MouseRightButtonDown="LaunchButton_OnRightClick" Margin="250,241,250,0">
+                            <Button Height="58" x:Name="LaunchButton" Content="PLAY" FontWeight="DemiBold" FontSize="25px" RenderOptions.BitmapScalingMode="HighQuality" Cursor="Hand" Foreground="Silver" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Click="LaunchButton_OnLeftClick" MouseRightButtonDown="LaunchButton_OnRightClick" Margin="250,241,250,0" Background="#FFB51717">
                             </Button>
 
 
 
-                            <Button x:Name="ShowFullList" Template="{StaticResource DefaultButtons}" Content="Switch Minecraft Version" Foreground="DimGray" FontFamily="HONOR Sans" Background="Transparent" Cursor="Hand" BorderThickness="0" Margin="554,455,85,118" Click="ShowFullVersionsList_Click" RenderTransformOrigin="0.654,1.424">
+                            <Button x:Name="ShowFullList" Template="{StaticResource DefaultButtons}" Content="Switch Minecraft Version" Foreground="Silver" FontFamily="HONOR Sans" Background="Transparent" Cursor="Hand" BorderThickness="0" Margin="554,455,85,118" Click="ShowFullVersionsList_Click" RenderTransformOrigin="0.654,1.424">
                             </Button>
 
 
 
-                            <Label x:Name="CurrentVersion" Content="N/A" Foreground="{DynamicResource TextColor}" FontSize="12" FontFamily="HONOR Sans" HorizontalContentAlignment="Center" FontWeight="Medium" Margin="250,310,250,265"/>
+                            <Label x:Name="CurrentVersion" Content="N/A" Foreground="Silver" FontSize="12" FontFamily="HONOR Sans" HorizontalContentAlignment="Center" FontWeight="Medium" Margin="250,310,250,265"/>
 
 
                         </Grid>
@@ -348,15 +355,15 @@
 
 
 
-                            <TextBlock x:Name="FullVersionsListText" Text="Versions Manager" FontSize="30" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Opacity="1" Margin="255,2,255,350" TextAlignment="Center"/>
+                            <TextBlock x:Name="FullVersionsListText" Text="Versions Manager" FontSize="30" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Opacity="1" Margin="255,2,255,350" TextAlignment="Center"/>
 
 
 
-                            <TextBlock x:Name="InstallationStatus" Text="N/A" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Opacity="1" Margin="64,44,10,332" TextAlignment="Left"/>
+                            <TextBlock x:Name="InstallationStatus" Text="N/A" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Opacity="1" Margin="64,44,10,332" TextAlignment="Left"/>
 
 
 
-                            <TextBlock x:Name="StatusText" Text="Status:" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Opacity="1" Margin="10,44,663,332" TextAlignment="Left"/>
+                            <TextBlock x:Name="StatusText" Text="Status:" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Opacity="1" Margin="10,44,663,332" TextAlignment="Left"/>
 
 
                             <Rectangle Style="{DynamicResource IconsStyle}" Height="20" Panel.ZIndex="4" ToolTip="Go back." Width="20" RenderOptions.BitmapScalingMode="HighQuality" Opacity="0.7" Cursor="Hand" MouseLeftButtonDown="GoBackFullVersionList_MouseLeftButtonDown" Margin="10,10,727,368" RenderTransformOrigin="0.5, 0.5">
@@ -387,7 +394,7 @@
                                                     <Grid>
 
 
-                                                        <Border Background="DimGray" Opacity="0.07" CornerRadius="5"/>
+                                                        <Border Background="Silver" Opacity="0.07" CornerRadius="5"/>
 
 
                                                         <Track IsDirectionReversed="True" Name="PART_Track" Visibility="Visible">
@@ -396,7 +403,7 @@
                                                             <Track.Thumb>
 
 
-                                                                <Thumb Width="14" Height="200" Background="DimGray" Opacity="0.7">
+                                                                <Thumb Width="14" Height="200" Background="Silver" Opacity="0.7">
 
 
                                                                     <Thumb.Template>
@@ -463,7 +470,7 @@
 
 
 
-            <TabItem x:Name="ModulesTabItem" Foreground="DimGray" Height="44" Margin="-16,263,15,-263">
+            <TabItem x:Name="ModulesTabItem" Foreground="Silver" Height="44" Margin="-16,263,15,-263">
 
 
 
@@ -490,7 +497,7 @@
 
 
 
-                    <TextBlock x:Name="ModulesTextBlock" Text="Modules" FontSize="50" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="477,34,159,68"/>
+                    <TextBlock x:Name="ModulesTextBlock" Text="Modules" FontSize="50" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="477,34,159,68"/>
 
 
 
@@ -565,13 +572,13 @@
                                                         </Rectangle>
                                                         <StackPanel Grid.Column="1" Margin="10">
                                                             <!-- DLL Type Text -->
-                                                            <TextBlock Text="{Binding DisplayTypeText}" Foreground="{DynamicResource TextColor}" FontFamily="HONOR Sans" FontSize="15"/>
+                                                            <TextBlock Text="{Binding DisplayTypeText}" Foreground="Silver" FontFamily="HONOR Sans" FontSize="15"/>
                                                             <!-- DLL Name -->
-                                                            <TextBlock Text="{Binding Name}" FontFamily="HONOR Sans" Foreground="{DynamicResource TextColor}" FontSize="16" FontWeight="Medium" Margin="0,5,0,0"/>
+                                                            <TextBlock Text="{Binding Name}" FontFamily="HONOR Sans" Foreground="Silver" FontSize="16" FontWeight="Medium" Margin="0,5,0,0"/>
                                                             <!-- URL if Web-based DLL -->
-                                                            <TextBlock Text="{Binding Url}" FontFamily="HONOR Sans" Foreground="{DynamicResource TextColor}" FontSize="10" Margin="0,0,0,0"/>
+                                                            <TextBlock Text="{Binding Url}" FontFamily="HONOR Sans" Foreground="Silver" FontSize="10" Margin="0,0,0,0"/>
                                                             <!-- Edit Prompt -->
-                                                            <TextBlock Text="Select me to edit!" FontFamily="HONOR Sans" Foreground="{DynamicResource TextColor}" FontSize="10" Margin="0,25,0,0"/>
+                                                            <TextBlock Text="Select me to edit!" FontFamily="HONOR Sans" Foreground="Silver" FontSize="10" Margin="0,25,0,0"/>
                                                         </StackPanel>
                                                     </Grid>
                                                 </Border>
@@ -612,14 +619,14 @@
                             <!-- Grid to overlay the TextBox and the placeholder TextBlock -->
                             <Grid>
                                 <!-- Placeholder TextBlock -->
-                                <TextBlock x:Name="DLLURLTextBlock" Text="Paste in a URL and press 'Enter' on your keyboard." FontSize="15" FontWeight="Medium" FontFamily="HONOR Sans" Foreground="{DynamicResource TextColor}" VerticalAlignment="Center" Opacity="0.3" Padding="10,5,10,5" HorizontalAlignment="Center" IsHitTestVisible="False" Visibility="Visible" Width="373"/>
+                                <TextBlock x:Name="DLLURLTextBlock" Text="Paste in a URL and press 'Enter' on your keyboard." FontSize="15" FontWeight="Medium" FontFamily="HONOR Sans" Foreground="Silver" VerticalAlignment="Center" Opacity="0.3" Padding="10,5,10,5" HorizontalAlignment="Center" IsHitTestVisible="False" Visibility="Visible" Width="373"/>
 
                                 <!-- TextBox -->
-                                <TextBox x:Name="dllurlTextBox" KeyDown="DllurlTextBox_KeyDown" Background="Transparent" BorderThickness="0" Padding="10,5,10,5" Foreground="{DynamicResource TextColor}" FontWeight="Medium" FontFamily="HONOR Sans" FontSize="15" Width="374" Height="30" TextChanged="DllurlTextBox_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                <TextBox x:Name="dllurlTextBox" KeyDown="DllurlTextBox_KeyDown" Background="Transparent" BorderThickness="0" Padding="10,5,10,5" Foreground="Silver" FontWeight="Medium" FontFamily="HONOR Sans" FontSize="15" Width="374" Height="30" TextChanged="DllurlTextBox_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                             </Grid>
                         </Border>
 
-                        <Label Content="Default Mod on launch: N/A" x:Name="DefaultDLLLabel" Foreground="{DynamicResource TextColor}" Opacity="1" HorizontalContentAlignment="Left" FontFamily="HONOR Sans" FontWeight="Medium" Margin="93,155,63,426"/>
+                        <Label Content="Default Mod on launch: N/A" x:Name="DefaultDLLLabel" Foreground="Silver" Opacity="1" HorizontalContentAlignment="Left" FontFamily="HONOR Sans" FontWeight="Medium" Margin="93,155,63,426"/>
 
 
 
@@ -659,7 +666,7 @@
 
 
 
-                        <Button x:Name="AddDLLsButton" Content="+" Panel.ZIndex="4" ToolTip="Add a Mod from your computer." HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="DemiBold" FontSize="40px" RenderOptions.BitmapScalingMode="HighQuality" Cursor="Hand" Foreground="DimGray" FontFamily="Inter" Template="{StaticResource DefaultButtons}" Margin="730,467,63,92" Click="AddDllsButton_OnLeftClick">
+                        <Button x:Name="AddDLLsButton" Content="+" Panel.ZIndex="4" ToolTip="Add a Mod from your computer." HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="DemiBold" FontSize="40px" RenderOptions.BitmapScalingMode="HighQuality" Cursor="Hand" Foreground="Silver" FontFamily="Inter" Template="{StaticResource DefaultButtons}" Margin="730,467,63,92" Click="AddDllsButton_OnLeftClick">
                         </Button>
 
 
@@ -675,7 +682,7 @@
 
 
 
-            <TabItem x:Name="ToolsTabItem" Foreground="DimGray" Height="44" Margin="-60,327,59,-327">
+            <TabItem x:Name="ToolsTabItem" Foreground="Silver" Height="44" Margin="-60,327,59,-327">
 
 
 
@@ -703,7 +710,7 @@
 
 
 
-                    <TextBlock x:Name="ToolsTextBlock" Text="Utilities" FontSize="50" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="513,38,123,69"/>
+                    <TextBlock x:Name="ToolsTextBlock" Text="Utilities" FontSize="50" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="513,38,123,69"/>
 
 
 
@@ -738,7 +745,7 @@
 
 
 
-                        <Border x:Name="DragZone" Background="{DynamicResource SecondaryBackgroundColor}" BorderThickness="0" BorderBrush="{DynamicResource DimGray}" CornerRadius="20" Margin="80,151,375,273">
+                        <Border x:Name="DragZone" Background="{DynamicResource SecondaryBackgroundColor}" BorderThickness="0" BorderBrush="{DynamicResource Silver}" CornerRadius="20" Margin="80,151,375,273">
 
 
                             <Border.Effect>
@@ -754,11 +761,11 @@
 
 
 
-                        <Label x:Name="DragnDropTitle" Content="Drag &amp; Drop" IsHitTestVisible="False" FontSize="20px" Opacity="1" Foreground="{DynamicResource TextColor}" FontWeight="Medium" FontFamily="HONOR Sans" HorizontalAlignment="Left" Margin="199,164,0,0" VerticalAlignment="Top"/>
+                        <Label x:Name="DragnDropTitle" Content="Drag &amp; Drop" IsHitTestVisible="False" FontSize="20px" Opacity="1" Foreground="Silver" FontWeight="Medium" FontFamily="HONOR Sans" HorizontalAlignment="Left" Margin="199,164,0,0" VerticalAlignment="Top"/>
 
 
 
-                        <Label x:Name="DragnDropSubtitle" Content="Supports: MCPACK, ZIP" IsHitTestVisible="False" FontSize="10px" Opacity="1" Foreground="{DynamicResource TextColor}" FontWeight="Medium" FontFamily="HONOR Sans" HorizontalAlignment="Left" Margin="205,288,0,0" VerticalAlignment="Top"/>
+                        <Label x:Name="DragnDropSubtitle" Content="Supports: MCPACK, ZIP" IsHitTestVisible="False" FontSize="10px" Opacity="1" Foreground="Silver" FontWeight="Medium" FontFamily="HONOR Sans" HorizontalAlignment="Left" Margin="205,288,0,0" VerticalAlignment="Top"/>
 
 
 
@@ -771,7 +778,7 @@
 
 
 
-                        <Button Height="34" x:Name="TexturePacksFolderButton" Panel.ZIndex="3" Content="Pack Folder" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="DimGray" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="353,290,0,0" Click="TexturePackButton_OnLeftClick" Width="99"/>
+                        <Button Height="34" x:Name="TexturePacksFolderButton" Panel.ZIndex="3" Content="Pack Folder" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="Silver" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="353,290,0,0" Click="TexturePackButton_OnLeftClick" Width="99"/>
 
 
 
@@ -791,15 +798,15 @@
 
 
 
-                        <Button Height="47" Panel.ZIndex="3" x:Name="ProfileSave" Content="Save" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="DimGray" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="233,463,0,0" Click="ProfileSave_Click" Width="69"/>
+                        <Button Height="47" Panel.ZIndex="3" x:Name="ProfileSave" Content="Save" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="Silver" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="233,463,0,0" Click="ProfileSave_Click" Width="69"/>
 
 
 
-                        <Button Height="47" Panel.ZIndex="3" x:Name="ProfileApply" Content="Apply" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="DimGray" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="95,463,0,0" Click="ProfileApply_Click" Width="69"/>
+                        <Button Height="47" Panel.ZIndex="3" x:Name="ProfileApply" Content="Apply" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="Silver" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="95,463,0,0" Click="ProfileApply_Click" Width="69"/>
 
 
 
-                        <Label x:Name="ProfilesManager" Content="Profiles Manager" IsHitTestVisible="False" FontSize="20px" Opacity="1" Foreground="{DynamicResource TextColor}" FontWeight="Medium" FontFamily="HONOR Sans" HorizontalAlignment="Left" Margin="115,390,0,0" VerticalAlignment="Top"/>
+                        <Label x:Name="ProfilesManager" Content="Profiles Manager" IsHitTestVisible="False" FontSize="20px" Opacity="1" Foreground="Silver" FontWeight="Medium" FontFamily="HONOR Sans" HorizontalAlignment="Left" Margin="115,390,0,0" VerticalAlignment="Top"/>
 
 
 
@@ -819,11 +826,11 @@
 
 
 
-                        <Label x:Name="CustomPersonas" Content="Custom Personas" IsHitTestVisible="False" FontSize="20px" Opacity="1" Foreground="{DynamicResource TextColor}" FontWeight="Medium" FontFamily="HONOR Sans" HorizontalAlignment="Left" Margin="353,390,0,0" VerticalAlignment="Top"/>
+                        <Label x:Name="CustomPersonas" Content="Custom Personas" IsHitTestVisible="False" FontSize="20px" Opacity="1" Foreground="Silver" FontWeight="Medium" FontFamily="HONOR Sans" HorizontalAlignment="Left" Margin="353,390,0,0" VerticalAlignment="Top"/>
 
 
 
-                        <Button Height="47" Panel.ZIndex="3" x:Name="Cosmetic" Content="Select" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="DimGray" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="402,463,0,0" Click="Persona_Click" Width="80"/>
+                        <Button Height="47" Panel.ZIndex="3" x:Name="Cosmetic" Content="Select" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="Silver" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="402,463,0,0" Click="Persona_Click" Width="80"/>
 
 
 
@@ -843,11 +850,11 @@
 
 
 
-                        <Label x:Name="ShadersInstaller" Content="Shaders Installer" IsHitTestVisible="False" FontSize="20px" Opacity="1" Foreground="{DynamicResource TextColor}" FontWeight="Medium" FontFamily="HONOR Sans" HorizontalAlignment="Left" Margin="597,390,0,0" VerticalAlignment="Top"/>
+                        <Label x:Name="ShadersInstaller" Content="Shaders Installer" IsHitTestVisible="False" FontSize="20px" Opacity="1" Foreground="Silver" FontWeight="Medium" FontFamily="HONOR Sans" HorizontalAlignment="Left" Margin="597,390,0,0" VerticalAlignment="Top"/>
 
 
 
-                        <Button Height="48" x:Name="Shader" Content="Install" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="DimGray" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="588,465,0,0" Click="ShaderInstall_Click" Width="71" RenderTransformOrigin="0.5,0.5">
+                        <Button Height="48" x:Name="Shader" Content="Install" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="Silver" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="588,465,0,0" Click="ShaderInstall_Click" Width="71" RenderTransformOrigin="0.5,0.5">
                             <Button.RenderTransform>
                                 <TransformGroup>
                                     <ScaleTransform/>
@@ -860,7 +867,7 @@
 
 
 
-                        <Button Height="47" x:Name="ShaderRemove" Content="Remove" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="DimGray" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="696,463,0,0" Click="ShaderRemove_Click" Width="70" RenderTransformOrigin="0.544,0.532"/>
+                        <Button Height="47" x:Name="ShaderRemove" Content="Remove" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="Silver" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="696,463,0,0" Click="ShaderRemove_Click" Width="70" RenderTransformOrigin="0.544,0.532"/>
 
 
 
@@ -880,22 +887,22 @@
 
 
 
-                        <Label x:Name="VSyncDisabler" Content="V-Sync Toggler" IsHitTestVisible="False" FontSize="20px" Opacity="1" Foreground="{DynamicResource TextColor}" FontWeight="Medium" FontFamily="HONOR Sans" HorizontalAlignment="Left" Margin="554,175,0,0" VerticalAlignment="Top"/>
+                        <Label x:Name="VSyncDisabler" Content="V-Sync Toggler" IsHitTestVisible="False" FontSize="20px" Opacity="1" Foreground="Silver" FontWeight="Medium" FontFamily="HONOR Sans" HorizontalAlignment="Left" Margin="554,175,0,0" VerticalAlignment="Top"/>
 
 
 
-                        <Button Height="43" Panel.ZIndex="3" x:Name="VSyncEnable" Content="Enable" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="DimGray" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Center" Margin="485,0,0,0" Click="VSyncEnable_Click" Width="70"/>
+                        <Button Height="43" Panel.ZIndex="3" x:Name="VSyncEnable" Content="Enable" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="Silver" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Center" Margin="485,0,0,0" Click="VSyncEnable_Click" Width="70"/>
 
 
 
-                        <Button Height="43" Panel.ZIndex="3" x:Name="VSyncDisable" Content="Disable" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="DimGray" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Center" Margin="696,0,0,0" Click="VSyncDisable_Click" Width="70"/>
+                        <Button Height="43" Panel.ZIndex="3" x:Name="VSyncDisable" Content="Disable" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="Silver" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Center" Margin="696,0,0,0" Click="VSyncDisable_Click" Width="70"/>
 
 
 
                     </Grid>
 
 
-                    
+
                 </Grid>
 
 
@@ -904,7 +911,7 @@
 
 
 
-            <TabItem x:Name="MusicPlayerTabItem" Foreground="DimGray" Height="44" Margin="-104,392,103,-392">
+            <TabItem x:Name="MusicPlayerTabItem" Foreground="Silver" Height="44" Margin="-104,392,103,-392">
 
 
 
@@ -931,7 +938,7 @@
 
 
 
-                    <TextBlock x:Name="MusicPlayerTextBlock" Text="Music Player" FontSize="50" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="397,35,156,339"/>
+                    <TextBlock x:Name="MusicPlayerTextBlock" Text="Music Player" FontSize="50" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="397,35,156,339"/>
 
 
 
@@ -1006,13 +1013,13 @@
                             </Border.Background>
                         </Border>
 
-                        <TextBlock x:Name="CurrentlyPlayingTitle" Text="No Song Playing" TextAlignment="Left" FontFamily="HONOR Sans" FontWeight="Medium" FontSize="15" Foreground="{DynamicResource TextColor}" Margin="146,474,145,111"/>
-                        <TextBlock x:Name="CurrentlyPlayingArtist" Text="From Artist" TextAlignment="Left" FontFamily="HONOR Sans" FontWeight="Medium" FontSize="10" Foreground="{DynamicResource TextColor}" Margin="146,493,145,102"/>
-                        <TextBlock x:Name="CurrentlyPlayingTime" Text="00:00" TextAlignment="Right" FontFamily="HONOR Sans" FontWeight="Medium" FontSize="8" Foreground="{DynamicResource TextColor}" Margin="266,508,533,89"/>
+                        <TextBlock x:Name="CurrentlyPlayingTitle" Text="No Song Playing" TextAlignment="Left" FontFamily="HONOR Sans" FontWeight="Medium" FontSize="15" Foreground="Silver" Margin="146,474,145,111"/>
+                        <TextBlock x:Name="CurrentlyPlayingArtist" Text="From Artist" TextAlignment="Left" FontFamily="HONOR Sans" FontWeight="Medium" FontSize="10" Foreground="Silver" Margin="146,493,145,102"/>
+                        <TextBlock x:Name="CurrentlyPlayingTime" Text="00:00" TextAlignment="Right" FontFamily="HONOR Sans" FontWeight="Medium" FontSize="8" Foreground="Silver" Margin="266,508,533,89"/>
 
                         <Border Background="{DynamicResource IconColor}" CornerRadius="2" BorderThickness="1" Margin="308,509,279,90">
 
-                            <ProgressBar x:Name="CurrentlyPlayingProgress" Minimum="0" Maximum="100" Value="0" Background="Transparent" BorderThickness="0" Margin="0,0,0,0" Foreground="{DynamicResource DimGray}"/>
+                            <ProgressBar x:Name="CurrentlyPlayingProgress" Minimum="0" Maximum="100" Value="0" Background="Transparent" BorderThickness="0" Margin="0,0,0,0" Foreground="{DynamicResource Silver}"/>
 
                         </Border>
 
@@ -1149,10 +1156,10 @@
                                             <StackPanel Grid.Column="1" Margin="10">
 
 
-                                                <TextBlock Text="{Binding Title}" Foreground="{DynamicResource TextColor}" FontFamily="HONOR Sans" FontWeight="Medium" FontSize="16"/>
+                                                <TextBlock Text="{Binding Title}" Foreground="Silver" FontFamily="HONOR Sans" FontWeight="Medium" FontSize="16"/>
 
 
-                                                <TextBlock Text="{Binding Artist}" Foreground="{DynamicResource TextColor}" FontFamily="HONOR Sans" FontWeight="Light" FontSize="14" Margin="0,5,0,0"/>
+                                                <TextBlock Text="{Binding Artist}" Foreground="Silver" FontFamily="HONOR Sans" FontWeight="Light" FontSize="14" Margin="0,5,0,0"/>
 
 
                                                 <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
@@ -1193,7 +1200,7 @@
 
 
 
-                        <TextBlock x:Name="MusicPlayerInfoTextBlock" Text="There's nothing here. Add musics to get started!" TextAlignment="Center" FontFamily="HONOR Sans" FontWeight="Medium" FontSize="15" Foreground="{DynamicResource TextColor}" Margin="56,312,26,273"/>
+                        <TextBlock x:Name="MusicPlayerInfoTextBlock" Text="There's nothing here. Add musics to get started!" TextAlignment="Center" FontFamily="HONOR Sans" FontWeight="Medium" FontSize="15" Foreground="Silver" Margin="56,312,26,273"/>
 
 
 
@@ -1205,10 +1212,10 @@
                             <!-- Grid to overlay the TextBox and the placeholder TextBlock -->
                             <Grid>
                                 <!-- Placeholder TextBlock -->
-                                <TextBlock x:Name="URLTextBlock" Text="Paste in a YouTube URL and press 'Enter' on your keyboard." FontSize="15" FontWeight="Medium" FontFamily="HONOR Sans" Foreground="{DynamicResource TextColor}" VerticalAlignment="Center" Opacity="0.3" Padding="10,5,10,5" HorizontalAlignment="Left" IsHitTestVisible="False" Visibility="Visible"/>
+                                <TextBlock x:Name="URLTextBlock" Text="Paste in a YouTube URL and press 'Enter' on your keyboard." FontSize="15" FontWeight="Medium" FontFamily="HONOR Sans" Foreground="Silver" VerticalAlignment="Center" Opacity="0.3" Padding="10,5,10,5" HorizontalAlignment="Left" IsHitTestVisible="False" Visibility="Visible"/>
 
                                 <!-- TextBox -->
-                                <TextBox x:Name="urlTextBox" KeyDown="urlTextBox_KeyDown" Background="Transparent" BorderThickness="0" Padding="10,5,10,5" Foreground="{DynamicResource TextColor}" FontWeight="Medium" FontFamily="HONOR Sans" FontSize="15" Width="622" Height="30" TextChanged="urlTextBox_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                                <TextBox x:Name="urlTextBox" KeyDown="urlTextBox_KeyDown" Background="Transparent" BorderThickness="0" Padding="10,5,10,5" Foreground="Silver" FontWeight="Medium" FontFamily="HONOR Sans" FontSize="15" Width="622" Height="30" TextChanged="urlTextBox_TextChanged" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                             </Grid>
                         </Border>
 
@@ -1224,7 +1231,7 @@
 
             </TabItem>
 
-            <TabItem x:Name="ComputerTabItem" Foreground="DimGray" Height="44" Margin="-148,457,147,-457">
+            <TabItem x:Name="ComputerTabItem" Foreground="Silver" Height="44" Margin="-148,457,147,-457">
 
                 <TabItem.Header>
                     <Rectangle x:Name="ComputerTab" Height="30" Width="30" RenderOptions.BitmapScalingMode="HighQuality" RenderTransformOrigin="0.5, 0.5" Fill="{DynamicResource IconColor}">
@@ -1237,8 +1244,8 @@
 
                 <Grid Margin="63,0,-2,0" Height="607">
 
-                    <TextBlock x:Name="ComputerTextBlock" Text="My Computer" FontSize="50" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="369,34,149,505"/>
-                    <TextBlock x:Name="HardwareMonitorStatusTextBlock" TextWrapping="Wrap" Text="Hardware monitoring is disabled. This feature may cause problems. To enable it, go to the launcher's settings, open the launcher's folder, then edit 'Settings.txt' to change the 'DebugHardwareMonitoring' value from 'True' to 'False'." FontSize="20" FontFamily="HONOR Sans" TextAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="145,283,0,0" Height="107" Width="581"/>
+                    <TextBlock x:Name="ComputerTextBlock" Text="My Computer" FontSize="50" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="369,34,149,505"/>
+                    <TextBlock x:Name="HardwareMonitorStatusTextBlock" TextWrapping="Wrap" Text="Hardware monitoring is disabled. This feature may cause problems. To enable it, go to the launcher's settings, open the launcher's folder, then edit 'Settings.txt' to change the 'DebugHardwareMonitoring' value from 'True' to 'False'." FontSize="20" FontFamily="HONOR Sans" TextAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Medium" Foreground="Silver" Margin="145,283,0,0" Height="107" Width="581"/>
 
                     <Grid 
                         Height="607"
@@ -1278,21 +1285,21 @@
                             </Border.Effect>
                         </Border>
 
-                        <TextBlock x:Name="CPUTempTextBlock" Text="Temperature: N/A" TextAlignment="Left" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="100,249,436,338"/>
-                        <TextBlock x:Name="GPUTempTextBlock" Text="Temperature: N/A" TextAlignment="Left" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="469,249,65,338"/>
-                        <TextBlock x:Name="CPUNameTextBlock" Text="CPU Name: N/A" TextAlignment="Left" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="100,214,436,373"/>
-                        <TextBlock x:Name="GPUNameTextBlock" Text="GPU Name: N/A" TextAlignment="Left" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="469,214,65,373"/>
-                        <TextBlock x:Name="CPULoadTextBlock" Text="Load: N/A" TextAlignment="Left" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="100,284,436,303"/>
-                        <TextBlock x:Name="GPULoadTextBlock" Text="Load: N/A" TextAlignment="Left" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="469,284,65,303"/>
-                        <TextBlock x:Name="GPUTextBlock" Text="GPU" TextAlignment="Left" FontSize="30" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="469,170,305,393"/>
-                        <TextBlock x:Name="CPUTextBlock" Text="CPU" TextAlignment="Left" FontSize="30" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="100,170,677,393"/>
-                        <TextBlock x:Name="FansTextBlock" Text="Fans Speed" TextAlignment="Left" FontSize="30" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="100,365,577,198"/>
-                        <TextBlock x:Name="OthersTextBlock" Text="Other Informations"  TextAlignment="Left" FontSize="30" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="469,365,106,198"/>
-                        <TextBlock x:Name="CPUFanTextBlock" Text="CPU Fan: N/A RPM" TextAlignment="Left" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="100,425,436,162"/>
-                        <TextBlock x:Name="GPUFanTextBlock" Text="GPU Fan: N/A RPM" TextAlignment="Left" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="100,473,436,114"/>
-                        <TextBlock x:Name="MemoryTextBlock" Text="Memory: N/A" TextAlignment="Left" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="469,409,67,178"/>
-                        <TextBlock x:Name="IPAddressTextBlock" Text="Local IP Address: N/A" TextAlignment="Left" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="469,478,67,109"/>
-                        <TextBlock x:Name="MotherboardTextBlock" Text="Motherboard: N/A" TextAlignment="Left" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="469,444,67,143"/>
+                        <TextBlock x:Name="CPUTempTextBlock" Text="Temperature: N/A" TextAlignment="Left" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="100,249,436,338"/>
+                        <TextBlock x:Name="GPUTempTextBlock" Text="Temperature: N/A" TextAlignment="Left" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="469,249,65,338"/>
+                        <TextBlock x:Name="CPUNameTextBlock" Text="CPU Name: N/A" TextAlignment="Left" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="100,214,436,373"/>
+                        <TextBlock x:Name="GPUNameTextBlock" Text="GPU Name: N/A" TextAlignment="Left" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="469,214,65,373"/>
+                        <TextBlock x:Name="CPULoadTextBlock" Text="Load: N/A" TextAlignment="Left" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="100,284,436,303"/>
+                        <TextBlock x:Name="GPULoadTextBlock" Text="Load: N/A" TextAlignment="Left" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="469,284,65,303"/>
+                        <TextBlock x:Name="GPUTextBlock" Text="GPU" TextAlignment="Left" FontSize="30" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="469,170,305,393"/>
+                        <TextBlock x:Name="CPUTextBlock" Text="CPU" TextAlignment="Left" FontSize="30" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="100,170,677,393"/>
+                        <TextBlock x:Name="FansTextBlock" Text="Fans Speed" TextAlignment="Left" FontSize="30" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="100,365,577,198"/>
+                        <TextBlock x:Name="OthersTextBlock" Text="Other Informations"  TextAlignment="Left" FontSize="30" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="469,365,106,198"/>
+                        <TextBlock x:Name="CPUFanTextBlock" Text="CPU Fan: N/A RPM" TextAlignment="Left" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="100,425,436,162"/>
+                        <TextBlock x:Name="GPUFanTextBlock" Text="GPU Fan: N/A RPM" TextAlignment="Left" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="100,473,436,114"/>
+                        <TextBlock x:Name="MemoryTextBlock" Text="Memory: N/A" TextAlignment="Left" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="469,409,67,178"/>
+                        <TextBlock x:Name="IPAddressTextBlock" Text="Local IP Address: N/A" TextAlignment="Left" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="469,478,67,109"/>
+                        <TextBlock x:Name="MotherboardTextBlock" Text="Motherboard: N/A" TextAlignment="Left" FontSize="15" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="469,444,67,143"/>
 
                     </Grid>
 
@@ -1300,7 +1307,7 @@
 
             </TabItem>
 
-            <TabItem x:Name="SettingsTabItem" Foreground="DimGray" Height="44" Margin="-192,523,191,-523">
+            <TabItem x:Name="SettingsTabItem" Foreground="Silver" Height="44" Margin="-192,523,191,-523">
 
 
 
@@ -1323,7 +1330,7 @@
 
 
 
-                    <TextBlock x:Name="SettingsTextBlock" Text="Settings" FontSize="50" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="500,36,146,506"/>
+                    <TextBlock x:Name="SettingsTextBlock" Text="Settings" FontSize="50" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="500,36,146,506"/>
 
 
 
@@ -1388,9 +1395,9 @@
                         </Border>
 
 
-                        <Label x:Name="MinecraftInstallationPathLabel" Content="Minecraft Installation Path" FontSize="15px" Foreground="{DynamicResource TextColor}" FontWeight="Medium" FontFamily="HONOR Sans" HorizontalContentAlignment="Left" Opacity="1" HorizontalAlignment="Left" Margin="467,260,0,0" VerticalAlignment="Top" Width="196"/>
+                        <Label x:Name="MinecraftInstallationPathLabel" Content="Minecraft Installation Path" FontSize="15px" Foreground="Silver" FontWeight="Medium" FontFamily="HONOR Sans" HorizontalContentAlignment="Left" Opacity="1" HorizontalAlignment="Left" Margin="467,260,0,0" VerticalAlignment="Top" Width="196"/>
 
-                        <Label x:Name="OfflineMode" Content="Offline Mode" FontSize="15px" Foreground="{DynamicResource TextColor}" FontWeight="Medium" FontFamily="HONOR Sans" HorizontalContentAlignment="Left" Opacity="1" HorizontalAlignment="Left" Margin="467,218,0,0" VerticalAlignment="Top" Width="105"/>
+                        <Label x:Name="OfflineMode" Content="Offline Mode" FontSize="15px" Foreground="Silver" FontWeight="Medium" FontFamily="HONOR Sans" HorizontalContentAlignment="Left" Opacity="1" HorizontalAlignment="Left" Margin="467,218,0,0" VerticalAlignment="Top" Width="105"/>
 
                         <CheckBox x:Name="OfflineModeToggle" HorizontalAlignment="Left" VerticalAlignment="Top" Style="{StaticResource CustomCheckbox}" Margin="728,222,0,0" Click="OfflineMode_Click" />
 
@@ -1413,19 +1420,19 @@
                             </Border.Effect>
 
 
-                            <TextBlock x:Name="MinecraftInstallationPathTextBlock" FontWeight="Medium" Text="" TextAlignment="Left" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{DynamicResource TextColor}" FontFamily="HONOR Sans" FontSize="9px" Width="300" Height="13"/>
+                            <TextBlock x:Name="MinecraftInstallationPathTextBlock" FontWeight="Medium" Text="" TextAlignment="Left" Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Silver" FontFamily="HONOR Sans" FontSize="9px" Width="300" Height="13"/>
 
 
                         </Border>
 
 
-                        <Button Height="19" x:Name="MinecraftInstallationButton" Panel.ZIndex="3" Content="Change" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="DimGray" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="721,265,0,0" Click="MinecraftInstallationButton_Click" Width="53"/>
+                        <Button Height="19" x:Name="MinecraftInstallationButton" Panel.ZIndex="3" Content="Change" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="Silver" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="721,265,0,0" Click="MinecraftInstallationButton_Click" Width="53"/>
 
 
-                        <Label x:Name="LauncherFolderLabel" Content="Launcher's Folder" FontSize="15px" Foreground="{DynamicResource TextColor}" FontWeight="Medium" FontFamily="HONOR Sans" HorizontalContentAlignment="Left" Opacity="1" HorizontalAlignment="Left" Margin="467,312,0,0" VerticalAlignment="Top" Width="152"/>
+                        <Label x:Name="LauncherFolderLabel" Content="Launcher's Folder" FontSize="15px" Foreground="Silver" FontWeight="Medium" FontFamily="HONOR Sans" HorizontalContentAlignment="Left" Opacity="1" HorizontalAlignment="Left" Margin="467,312,0,0" VerticalAlignment="Top" Width="152"/>
 
 
-                        <Button Height="19" x:Name="LauncherFolderButton" Panel.ZIndex="3" Content="Open" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="DimGray" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="721,317,0,0" Click="LauncherFolderButton_Click" Width="53"/>
+                        <Button Height="19" x:Name="LauncherFolderButton" Panel.ZIndex="3" Content="Open" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="Silver" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="721,317,0,0" Click="LauncherFolderButton_Click" Width="53"/>
 
 
                         <Border x:Name="LaunchOptionsBackground" Background="{DynamicResource SecondaryBackgroundColor}" CornerRadius="20" Margin="80,376,419,95">
@@ -1458,19 +1465,19 @@
                         </Border>
 
 
-                        <TextBlock x:Name="ThemesTextBlock" Text="Themes" FontSize="22" FontFamily="HONOR Sans" Foreground="{DynamicResource TextColor}" Margin="0,246,668,330" HorizontalAlignment="Right" Width="84"/>
+                        <TextBlock x:Name="ThemesTextBlock" Text="Themes" FontSize="22" FontFamily="HONOR Sans" Foreground="Silver" Margin="0,246,668,330" HorizontalAlignment="Right" Width="84"/>
 
-                        <TextBlock x:Name="CreateACustomThemeTextBlock" Text="Colors Manager" FontSize="15px" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="0,311,627,276" HorizontalAlignment="Right" Width="114"/>
+                        <TextBlock x:Name="CreateACustomThemeTextBlock" Text="Colors Manager" FontSize="15px" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="0,311,627,276" HorizontalAlignment="Right" Width="114"/>
 
-                        <TextBlock x:Name="PersonalizeTextBlock" Text="Personalize" FontSize="30" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="0,182,523,386" HorizontalAlignment="Right" Width="155"/>
+                        <TextBlock x:Name="PersonalizeTextBlock" Text="Personalize" FontSize="30" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="0,182,523,386" HorizontalAlignment="Right" Width="155"/>
 
-                        <TextBlock x:Name="GeneralTextBlock" Text="General" FontSize="30" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="467,174,253,394"/>
-
-
-                        <TextBlock x:Name="LaunchOptionsTextBlock" Text="Launch" FontSize="30" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="98,384,512,185"/>
+                        <TextBlock x:Name="GeneralTextBlock" Text="General" FontSize="30" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="467,174,253,394"/>
 
 
-                        <TextBlock x:Name="DiscordOptionsTextBlock" Text="Discord" FontSize="30" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="467,384,151,185"/>
+                        <TextBlock x:Name="LaunchOptionsTextBlock" Text="Launch" FontSize="30" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="98,384,512,185"/>
+
+
+                        <TextBlock x:Name="DiscordOptionsTextBlock" Text="Discord" FontSize="30" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="467,384,151,185"/>
 
 
                         <Rectangle x:Name="ResetAllThemes" ToolTip="Restore the currently applied themes to default." Style="{DynamicResource IconsStyle}" Width="15" Height="15" Margin="212,314,611,278" MouseLeftButtonDown="ResetAllThemes_MouseLeftButtonDown" Panel.ZIndex="4">
@@ -1495,7 +1502,7 @@
                             </Rectangle.OpacityMask>
                         </Rectangle>
 
-                        <Button Height="38" x:Name="OpenThemesManager" Panel.ZIndex="3" Content="Open" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="DimGray" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="280,302,0,0" Click="OpenThemesManager_Click" Width="92"/>
+                        <Button Height="38" x:Name="OpenThemesManager" Panel.ZIndex="3" Content="Open" FontWeight="Bold" FontSize="10px" HorizontalAlignment="Left" Cursor="Hand" Foreground="Silver" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" VerticalAlignment="Top" Margin="280,302,0,0" Click="OpenThemesManager_Click" Width="92"/>
 
 
                         <CheckBox x:Name="CheckBoxLightMode" Cursor="Hand" Margin="176,239,613,0" VerticalAlignment="Top" Width="50" Height="50" IsEnabled="True" Checked="CheckBoxTheme_Checked" Tag="LightTheme">
@@ -1516,7 +1523,7 @@
                                             <ControlTemplate TargetType="CheckBox">
 
 
-                                                <Border x:Name="CheckboxBorder" Background="#ccd0d1" BorderBrush="{DynamicResource DimGray}" BorderThickness="0" CornerRadius="10">
+                                                <Border x:Name="CheckboxBorder" Background="#ccd0d1" BorderBrush="{DynamicResource Silver}" BorderThickness="0" CornerRadius="10">
                                                 </Border>
 
 
@@ -1572,7 +1579,7 @@
                                             <ControlTemplate TargetType="CheckBox">
 
 
-                                                <Border x:Name="CheckboxBorder" Background="#171d22" BorderBrush="{DynamicResource DimGray}" BorderThickness="0" CornerRadius="10">
+                                                <Border x:Name="CheckboxBorder" Background="#171d22" BorderBrush="{DynamicResource Silver}" BorderThickness="0" CornerRadius="10">
                                                 </Border>
 
 
@@ -1626,7 +1633,7 @@
                                             <ControlTemplate TargetType="CheckBox">
 
 
-                                                <Border x:Name="CheckboxBorder" Background="{DynamicResource DimGray}" BorderBrush="{DynamicResource IconColor}" BorderThickness="0" CornerRadius="10">
+                                                <Border x:Name="CheckboxBorder" Background="{DynamicResource Silver}" BorderBrush="{DynamicResource IconColor}" BorderThickness="0" CornerRadius="10">
                                                 </Border>
 
 
@@ -1682,14 +1689,14 @@
                             </Border.Effect>
 
 
-                            <TextBox x:Name="InjectionDelayTextBox" FontWeight="Medium" TextChanged="InjectionDelayTextBox_TextChanged" TextAlignment="Center" Background="Transparent" BorderThickness="0" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="{DynamicResource TextColor}" FontFamily="HONOR Sans" FontSize="11px" Width="60" Height="14" Margin="0,0,0,5"/>
+                            <TextBox x:Name="InjectionDelayTextBox" FontWeight="Medium" TextChanged="InjectionDelayTextBox_TextChanged" TextAlignment="Center" Background="Transparent" BorderThickness="0" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="Silver" FontFamily="HONOR Sans" FontSize="11px" Width="60" Height="14" Margin="0,0,0,5"/>
 
 
                         </Border>
 
 
 
-                        <Label x:Name="InjectionDelay" Content="Injection Delay" FontSize="15px" Foreground="{DynamicResource TextColor}" FontWeight="Medium" FontFamily="HONOR Sans" Opacity="1" HorizontalAlignment="Left" Margin="94,430,0,0" VerticalAlignment="Top" Width="111"/>
+                        <Label x:Name="InjectionDelay" Content="Injection Delay" FontSize="15px" Foreground="Silver" FontWeight="Medium" FontFamily="HONOR Sans" Opacity="1" HorizontalAlignment="Left" Margin="94,430,0,0" VerticalAlignment="Top" Width="111"/>
 
 
 
@@ -1701,7 +1708,7 @@
 
 
 
-                        <Label x:Name="AccelerateLoadingTime" Content="Accelerate Loading Time" FontSize="15px" Foreground="{DynamicResource TextColor}" FontWeight="Medium" FontFamily="HONOR Sans" Opacity="1" HorizontalAlignment="Left" Margin="94,464,0,0" VerticalAlignment="Top" Width="183"/>
+                        <Label x:Name="AccelerateLoadingTime" Content="Accelerate Loading Time" FontSize="15px" Foreground="Silver" FontWeight="Medium" FontFamily="HONOR Sans" Opacity="1" HorizontalAlignment="Left" Margin="94,464,0,0" VerticalAlignment="Top" Width="183"/>
 
 
 
@@ -1725,14 +1732,14 @@
                             </Border.Effect>
 
 
-                            <TextBox x:Name="ALTTextBox" FontWeight="Medium" TextChanged="ALTTextBox_TextChanged" TextAlignment="Center" Background="Transparent" BorderThickness="0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{DynamicResource TextColor}" FontFamily="HONOR Sans" FontSize="11px" Width="60" Height="14"/>
+                            <TextBox x:Name="ALTTextBox" FontWeight="Medium" TextChanged="ALTTextBox_TextChanged" TextAlignment="Center" Background="Transparent" BorderThickness="0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Silver" FontFamily="HONOR Sans" FontSize="11px" Width="60" Height="14"/>
 
 
                         </Border>
 
 
 
-                        <Label x:Name="DiscordRPC" Content="Rich Presence" FontSize="15px" Foreground="{DynamicResource TextColor}" FontWeight="Medium" FontFamily="HONOR Sans" Opacity="1" HorizontalAlignment="Left" Margin="463,422,0,0" VerticalAlignment="Top" Width="166"/>
+                        <Label x:Name="DiscordRPC" Content="Rich Presence" FontSize="15px" Foreground="Silver" FontWeight="Medium" FontFamily="HONOR Sans" Opacity="1" HorizontalAlignment="Left" Margin="463,422,0,0" VerticalAlignment="Top" Width="166"/>
 
 
 
@@ -1742,22 +1749,22 @@
 
                         <Grid x:Name="DiscordOptions" Margin="443,437,44,95">
 
-                            <TextBlock x:Name="StatusTextBlock" Text="Status" TextAlignment="Left" FontSize="15px" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}" Margin="25,45,211,6"/>
+                            <TextBlock x:Name="StatusTextBlock" Text="Status" TextAlignment="Left" FontSize="15px" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="Silver" Margin="25,45,211,6"/>
                             <Border x:Name="StatusBackground" Background="{DynamicResource SecondaryBackgroundColor}" Height="20" CornerRadius="7" Margin="209,45,21,10">
                                 <Border.Effect>
                                     <DropShadowEffect BlurRadius="20" Opacity="0.3" RenderingBias="Performance" ShadowDepth="5"/>
                                 </Border.Effect>
-                                <TextBox x:Name="StatusTextBox" Text="" FontWeight="Medium" TextChanged="StatusTextBox_TextChanged" Foreground="{DynamicResource TextColor}" FontFamily="HONOR Sans" FontSize="11px" Background="Transparent" BorderThickness="0" VerticalAlignment="Center" TextAlignment="Justify" Margin="10,0,10,0"/>
+                                <TextBox x:Name="StatusTextBox" Text="" FontWeight="Medium" TextChanged="StatusTextBox_TextChanged" Foreground="Silver" FontFamily="HONOR Sans" FontSize="11px" Background="Transparent" BorderThickness="0" VerticalAlignment="Center" TextAlignment="Justify" Margin="10,0,10,0"/>
                             </Border>
 
                             <Line X1="0" Y1="0" X2="0" Y2="20" Stroke="{DynamicResource IconColor}" StrokeThickness="2" Margin="190,18,161,37" />
 
 
-                            <Label x:Name="ShowGameVersion" Content="Game Version" FontFamily="HONOR Sans" FontSize="15px" Foreground="{DynamicResource TextColor}" FontWeight="Medium" Opacity="1" HorizontalAlignment="Left" Margin="20,12,0,0" VerticalContentAlignment="Center" VerticalAlignment="Top" Width="105" Height="26"/>
+                            <Label x:Name="ShowGameVersion" Content="Game Version" FontFamily="HONOR Sans" FontSize="15px" Foreground="Silver" FontWeight="Medium" Opacity="1" HorizontalAlignment="Left" Margin="20,12,0,0" VerticalContentAlignment="Center" VerticalAlignment="Top" Width="105" Height="26"/>
 
 
 
-                            <Label x:Name="ShowDLLName" Content="DLL Name" FontFamily="HONOR Sans" FontSize="15px" Foreground="{DynamicResource TextColor}" FontWeight="Medium" Opacity="1" HorizontalAlignment="Left" Margin="203,12,0,0" VerticalAlignment="Top" Height="26"/>
+                            <Label x:Name="ShowDLLName" Content="DLL Name" FontFamily="HONOR Sans" FontSize="15px" Foreground="Silver" FontWeight="Medium" Opacity="1" HorizontalAlignment="Left" Margin="203,12,0,0" VerticalAlignment="Top" Height="26"/>
 
 
 

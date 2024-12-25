@@ -55,8 +55,8 @@
         <TextBlock Text="First Color" FontSize="15" VerticalAlignment="Top" FontWeight="Medium" FontFamily="Outfit" Foreground="{DynamicResource TextColor}" Margin="30,65,318,0">
         </TextBlock>
         <Border x:Name="AccentColor2Border" ToolTipService.InitialShowDelay="0" ToolTip="{Binding Background.Color, RelativeSource={RelativeSource Self}}" Background="#FF08DAC4" CornerRadius="5" Width="20" Height="20" Margin="345,90,55,290"/>
-        <Border x:Name="ColorResultBorder" Background="{DynamicResource DimGray}" CornerRadius="5" Margin="345,35,28,340"/>
-        <Rectangle Panel.ZIndex="-1" RadiusX="20" RadiusY="20" Fill="{DynamicResource PrimaryBackgroundColor}" Opacity="1" Stroke="DimGray" RenderTransformOrigin="0.5,0.5" StrokeThickness="0"/>
+        <Border x:Name="ColorResultBorder" Background="{DynamicResource Silver}" CornerRadius="5" Margin="345,35,28,340"/>
+        <Rectangle Panel.ZIndex="-1" RadiusX="20" RadiusY="20" Fill="{DynamicResource PrimaryBackgroundColor}" Opacity="1" Stroke="Silver" RenderTransformOrigin="0.5,0.5" StrokeThickness="0"/>
         <TextBlock Text="Primary Background Color" VerticalAlignment="Top" FontSize="15" FontWeight="Medium" FontFamily="Outfit" Foreground="{DynamicResource TextColor}" Margin="30,139,209,0">
         </TextBlock>
         <Border x:Name="BGColor1Border" ToolTipService.InitialShowDelay="0" ToolTip="{Binding Background.Color, RelativeSource={RelativeSource Self}}" Background="#ccd0d1" CornerRadius="5" Width="20" Height="20" Margin="345,139,55,241"/>
@@ -69,8 +69,8 @@
         <TextBlock Text="Icon Color" VerticalAlignment="Top" FontSize="15" FontWeight="Medium" FontFamily="Outfit" Foreground="{DynamicResource TextColor}" Margin="30,292,312,0">
         </TextBlock>
         <Border x:Name="IconColorBorder" ToolTipService.InitialShowDelay="0" ToolTip="{Binding Background.Color, RelativeSource={RelativeSource Self}}" Background="#72767C" CornerRadius="5" Width="20" Height="20" Margin="345,292,55,88"/>
-        <Button x:Name="CancelButton" Content="Cancel" FontFamily="Outfit" FontWeight="Bold" Cursor="Hand" Panel.ZIndex="4" Foreground="DimGray" Template="{StaticResource DefaultButtons}" Click="CancelButton_Click" Margin="95,356,265,20"/>
-        <Button x:Name="OKButton" Content="Save" FontFamily="Outfit" FontWeight="Bold" Cursor="Hand" Panel.ZIndex="4" Foreground="DimGray" Template="{StaticResource DefaultButtons}" Click="OkButton_Click" IsDefault="True" Margin="30,356,330,20">
+        <Button x:Name="CancelButton" Content="Cancel" FontFamily="Outfit" FontWeight="Bold" Cursor="Hand" Panel.ZIndex="4" Foreground="Silver" Template="{StaticResource DefaultButtons}" Click="CancelButton_Click" Margin="95,356,265,20"/>
+        <Button x:Name="OKButton" Content="Save" FontFamily="Outfit" FontWeight="Bold" Cursor="Hand" Panel.ZIndex="4" Foreground="Silver" Template="{StaticResource DefaultButtons}" Click="OkButton_Click" IsDefault="True" Margin="30,356,330,20">
         </Button>
         <Rectangle x:Name="ChangeAccentColor1" ToolTip="Select the first color." Style="{DynamicResource IconsStyle}" Height="22" Width="22" Margin="370,63,28,315" MouseLeftButtonDown="SelectAccentColor1_Click" Panel.ZIndex="3">
             <Rectangle.OpacityMask>

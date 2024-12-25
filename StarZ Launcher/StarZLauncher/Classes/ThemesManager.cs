@@ -44,7 +44,7 @@ namespace StarZLauncher.Classes
     { "PrimaryBackgroundColor", "#FFf6eedf" }, // Warm Off-White
     { "SecondaryBackgroundColor", "#FFfef0de" }, // Light Gray
     { "IconColor", "#FF505050" }, // Muted Dark Gray
-    { "TextColor", "#FF505050" } // Muted Dark Gray
+    { "TextColor", "#FFFFFFFF" } // Muted Dark Gray
 };
 
 
@@ -55,7 +55,7 @@ private static Dictionary<string, string> CreateDarkThemeColorDictionary() => ne
     { "PrimaryBackgroundColor", "#FF000000" }, // Very Dark Gray
     { "SecondaryBackgroundColor", "#FF151517" }, // Deeper Charcoal Gray
     { "IconColor", "#FFCFD8DC" }, // Light Blue-Gray
-    { "TextColor", "#FFCFD8DC" } // Light Blue-Gray
+    { "TextColor", "#FFFFFFFF" } // Light Blue-Gray
 };
 
 private static Dictionary<string, string> CreateCustomThemeColorDictionary() => new()
@@ -65,7 +65,7 @@ private static Dictionary<string, string> CreateCustomThemeColorDictionary() => 
     { "PrimaryBackgroundColor", "#FF0f0d0d" }, // Very Dark Blue-Gray
     { "SecondaryBackgroundColor", "#FF263238" }, // Deep Charcoal Gray
     { "IconColor", "#FFB0BEC5" }, // Soft Blue-Gray
-    { "TextColor", "#FFb7b9b5" } // Soft Blue-Gray
+    { "TextColor", "#FFFFFFFF" } // Soft Blue-Gray
 };
 
 
