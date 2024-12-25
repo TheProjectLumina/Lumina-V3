@@ -4,7 +4,7 @@ using System.IO;
 using System.Net;
 using System.Threading.Tasks;
 using System.Windows; 
-
+ 
 namespace StarZLauncher;
 
 public partial class App : Application
