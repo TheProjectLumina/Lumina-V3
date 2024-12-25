@@ -39,8 +39,8 @@ namespace StarZLauncher.Classes
 
    private static Dictionary<string, string> CreateLightThemeColorDictionary() => new()
 {
-    { "AccentColor1", "#FF45362b" }, // Soft Warm Gray
-    { "AccentColor2", "#45362b" }, // Muted Gray
+    { "AccentColor1", "#ab9078" }, // Soft Warm Gray
+    { "AccentColor2", "#ab9078" }, // Muted Gray
     { "PrimaryBackgroundColor", "#FFf6eedf" }, // Warm Off-White
     { "SecondaryBackgroundColor", "#FFfef0de" }, // Light Gray
     { "IconColor", "#FF505050" }, // Muted Dark Gray
@@ -50,9 +50,9 @@ namespace StarZLauncher.Classes
 
 private static Dictionary<string, string> CreateDarkThemeColorDictionary() => new()
 {
-    { "AccentColor1", "#FF463d3e" }, // Deep Blue-Gray
-    { "AccentColor2", "#FF463d3e" }, // Rich Charcoal Gray
-    { "PrimaryBackgroundColor", "#FF000000" }, // Very Dark Gray
+    { "AccentColor1", "#ec2938" }, // Deep Blue-Gray
+    { "AccentColor2", "#ec2938" }, // Rich Charcoal Gray
+    { "PrimaryBackgroundColor", "#FF151517" }, // Very Dark Gray
     { "SecondaryBackgroundColor", "#FF151517" }, // Deeper Charcoal Gray
     { "IconColor", "#FFCFD8DC" }, // Light Blue-Gray
     { "TextColor", "#FFFFFF" } // Light Blue-Gray

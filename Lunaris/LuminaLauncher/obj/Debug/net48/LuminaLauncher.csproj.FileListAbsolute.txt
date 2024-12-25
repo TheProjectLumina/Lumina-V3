@@ -54,7 +54,7 @@ E:\github\luminabe-dev\Lunaris\LuminaLauncher\obj\Debug\net48\LuminaLauncher.Ass
 E:\github\luminabe-dev\Lunaris\LuminaLauncher\obj\Debug\net48\LuminaLauncher.AssemblyInfo.cs
 E:\github\luminabe-dev\Lunaris\LuminaLauncher\obj\Debug\net48\LuminaLauncher.csproj.CoreCompileInputs.cache
 E:\github\luminabe-dev\Lunaris\LuminaLauncher\obj\Debug\net48\LuminaLauncher.sourcelink.json
-E:\github\luminabe-dev\Lunaris\LuminaLauncher\obj\Debug\net48\LuminaLauncher.csproj.Fody.CopyLocal.cache
-E:\github\luminabe-dev\Lunaris\LuminaLauncher\obj\Debug\net48\LuminaLauncher.csproj.Fody.RuntimeCopyLocal.cache
 E:\github\luminabe-dev\Lunaris\LuminaLauncher\obj\Debug\net48\LuminaLauncher.exe
 E:\github\luminabe-dev\Lunaris\LuminaLauncher\obj\Debug\net48\LuminaLauncher.pdb
+E:\github\luminabe-dev\Lunaris\LuminaLauncher\obj\Debug\net48\LuminaLauncher.csproj.Fody.CopyLocal.cache
+E:\github\luminabe-dev\Lunaris\LuminaLauncher\obj\Debug\net48\LuminaLauncher.csproj.Fody.RuntimeCopyLocal.cache
