@@ -6,7 +6,7 @@
         <!-- Opening animation -->
         <Grid x:Name="OpeningAnim" Panel.ZIndex="10" Visibility="Visible">
 
-            <Border Background="#111111" CornerRadius="20" BorderBrush="DimGray" BorderThickness="0.5"/>
+            <Border Background="#111111" CornerRadius="20" BorderBrush="DimGray" BorderThickness="0.5" Margin="1,0,-1,0"/>
 
             <Image x:Name="OpeningLogo" Source="/Resources/StarZLogo.png" Margin="252,133,252,305" RenderOptions.BitmapScalingMode="HighQuality"/>
 
