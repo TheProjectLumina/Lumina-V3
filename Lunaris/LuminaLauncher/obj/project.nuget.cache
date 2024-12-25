@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "udlPdeXe+XM=",
+  "dgSpecHash": "bYO4pbjbl8k=",
   "success": true,
-  "projectFilePath": "E:\\github\\luminabe-dev\\StarZ Launcher\\LuminaLauncher\\LuminaLauncher.csproj",
+  "projectFilePath": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\LuminaLauncher.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrjar\\.nuget\\packages\\anglesharp\\1.1.2\\anglesharp.1.1.2.nupkg.sha512",
     "C:\\Users\\mrjar\\.nuget\\packages\\betterfolderbrowser\\1.2.0\\betterfolderbrowser.1.2.0.nupkg.sha512",
