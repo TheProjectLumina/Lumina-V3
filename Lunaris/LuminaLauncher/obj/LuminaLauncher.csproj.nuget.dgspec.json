@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\LuminaLauncher.csproj": {}
+    "R:\\BGMI\\luminabe-dev\\Lunaris\\LuminaLauncher\\LuminaLauncher.csproj": {}
   },
   "projects": {
-    "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\LuminaLauncher.csproj": {
+    "R:\\BGMI\\luminabe-dev\\Lunaris\\LuminaLauncher\\LuminaLauncher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\LuminaLauncher.csproj",
+        "projectUniqueName": "R:\\BGMI\\luminabe-dev\\Lunaris\\LuminaLauncher\\LuminaLauncher.csproj",
         "projectName": "LuminaLauncher",
-        "projectPath": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\LuminaLauncher.csproj",
-        "packagesPath": "C:\\Users\\mrjar\\.nuget\\packages\\",
-        "outputPath": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\obj\\",
+        "projectPath": "R:\\BGMI\\luminabe-dev\\Lunaris\\LuminaLauncher\\LuminaLauncher.csproj",
+        "packagesPath": "C:\\Users\\umang\\.nuget\\packages\\",
+        "outputPath": "R:\\BGMI\\luminabe-dev\\Lunaris\\LuminaLauncher\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mrjar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\umang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
