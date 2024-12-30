@@ -1,6 +1,6 @@
-﻿using DiscordRPC;
-using System;
+﻿using System;
 using System.Windows.Forms;
+using DiscordRPC;  // Ensure this namespace is included
 
 namespace StarZLauncher.Classes
 {
@@ -31,9 +31,22 @@ namespace StarZLauncher.Classes
                     Assets = new Assets
                     {
                         LargeImageKey = "Luna",
-                        LargeImageText = "Luna Launcher",
+                        LargeImageText = "Lumina Launcher",
                         SmallImageKey = "minecraft",
-                        SmallImageText = "Minecraft For Windows"
+                        SmallImageText = "Minecraft Launcher For Windows"
+                    },
+                    Buttons = new DiscordRPC.Button[]  // Fully qualify the Button class here
+                    {
+                        new DiscordRPC.Button
+                        {
+                            Label = "Download Launcher",
+                            Url = "https://projectlumina.netlify.app"
+                        },
+                        new DiscordRPC.Button
+                        {
+                            Label = "Discord",
+                            Url = "https://projectlumina.netlify.app/discord"
+                        }
                     }
                 });
             }

@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "E:\\github\\luminabe-dev\\Lunaris\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|e:\\github\\luminabe-dev\\lunaris\\luminalauncher\\classes\\configmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|solutionrelative:luminalauncher\\classes\\configmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|e:\\github\\luminabe-dev\\lunaris\\luminalauncher\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|solutionrelative:luminalauncher\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|e:\\github\\luminabe-dev\\lunaris\\luminalauncher\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|solutionrelative:luminalauncher\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|e:\\github\\luminabe-dev\\lunaris\\luminalauncher\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|solutionrelative:luminalauncher\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|e:\\github\\luminabe-dev\\lunaris\\luminalauncher\\classes\\discordrichpresencemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|solutionrelative:luminalauncher\\classes\\discordrichpresencemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|e:\\github\\luminabe-dev\\lunaris\\luminalauncher\\classes\\loader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|solutionrelative:luminalauncher\\classes\\loader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|e:\\github\\luminabe-dev\\lunaris\\luminalauncher\\classes\\hardwaremonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|solutionrelative:luminalauncher\\classes\\hardwaremonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|e:\\github\\luminabe-dev\\lunaris\\luminalauncher\\classes\\fontinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|solutionrelative:luminalauncher\\classes\\fontinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|e:\\github\\luminabe-dev\\lunaris\\luminalauncher\\classes\\themesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|solutionrelative:luminalauncher\\classes\\themesmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,20 +43,8 @@
       "RelativeMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|solutionrelative:luminalauncher\\windows\\editwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|e:\\github\\luminabe-dev\\lunaris\\luminalauncher\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|solutionrelative:luminalauncher\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|e:\\github\\luminabe-dev\\lunaris\\luminalauncher\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|solutionrelative:luminalauncher\\windows\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|e:\\github\\luminabe-dev\\lunaris\\luminalauncher\\themes\\colorsmanager.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|solutionrelative:luminalauncher\\themes\\colorsmanager.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|e:\\github\\luminabe-dev\\lunaris\\luminalauncher\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CE91BB45-7493-4320-8944-A644B66CB86C}|LuminaLauncher\\LuminaLauncher.csproj|solutionrelative:luminalauncher\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,69 +54,135 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Loader.cs",
+              "DocumentMoniker": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\Classes\\Loader.cs",
+              "RelativeDocumentMoniker": "LuminaLauncher\\Classes\\Loader.cs",
+              "ToolTip": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\Classes\\Loader.cs",
+              "RelativeToolTip": "LuminaLauncher\\Classes\\Loader.cs",
+              "ViewState": "AgIAANEAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T12:43:37.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConfigManager.cs",
+              "DocumentMoniker": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\Classes\\ConfigManager.cs",
+              "RelativeDocumentMoniker": "LuminaLauncher\\Classes\\ConfigManager.cs",
+              "ToolTip": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\Classes\\ConfigManager.cs",
+              "RelativeToolTip": "LuminaLauncher\\Classes\\ConfigManager.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAowAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T12:39:37.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "DiscordRichPresenceManager.cs",
+              "DocumentMoniker": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\Classes\\DiscordRichPresenceManager.cs",
+              "RelativeDocumentMoniker": "LuminaLauncher\\Classes\\DiscordRichPresenceManager.cs",
+              "ToolTip": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\Classes\\DiscordRichPresenceManager.cs",
+              "RelativeToolTip": "LuminaLauncher\\Classes\\DiscordRichPresenceManager.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAtwFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T12:38:39.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ColorsManager.xaml",
               "DocumentMoniker": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\Themes\\ColorsManager.xaml",
               "RelativeDocumentMoniker": "LuminaLauncher\\Themes\\ColorsManager.xaml",
               "ToolTip": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\Themes\\ColorsManager.xaml",
               "RelativeToolTip": "LuminaLauncher\\Themes\\ColorsManager.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-25T14:05:32.451Z"
+              "WhenOpened": "2024-12-25T14:05:32.451Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "App.xaml",
               "DocumentMoniker": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\App.xaml",
               "RelativeDocumentMoniker": "LuminaLauncher\\App.xaml",
               "ToolTip": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\App.xaml",
               "RelativeToolTip": "LuminaLauncher\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-25T13:01:40.12Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ThemesManager.cs",
-              "DocumentMoniker": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\Classes\\ThemesManager.cs",
-              "RelativeDocumentMoniker": "LuminaLauncher\\Classes\\ThemesManager.cs",
-              "ToolTip": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\Classes\\ThemesManager.cs",
-              "RelativeToolTip": "LuminaLauncher\\Classes\\ThemesManager.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAADwvzQAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:30:47.229Z",
+              "WhenOpened": "2024-12-25T13:01:40.12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\Windows\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "LuminaLauncher\\Windows\\MainWindow.xaml.cs",
-              "ToolTip": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\Windows\\MainWindow.xaml.cs",
-              "RelativeToolTip": "LuminaLauncher\\Windows\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T12:56:34.922Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\Windows\\MainWindow.xaml",
               "RelativeDocumentMoniker": "LuminaLauncher\\Windows\\MainWindow.xaml",
               "ToolTip": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\Windows\\MainWindow.xaml",
               "RelativeToolTip": "LuminaLauncher\\Windows\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-12-25T12:50:44.435Z"
+              "WhenOpened": "2024-12-25T12:50:44.435Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\Windows\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "LuminaLauncher\\Windows\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\Windows\\MainWindow.xaml.cs",
+              "RelativeToolTip": "LuminaLauncher\\Windows\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAEsCAAAAAAAAAAAAAGUCAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T12:56:34.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FontInstaller.cs",
+              "DocumentMoniker": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\Classes\\FontInstaller.cs",
+              "RelativeDocumentMoniker": "LuminaLauncher\\Classes\\FontInstaller.cs",
+              "ToolTip": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\Classes\\FontInstaller.cs",
+              "RelativeToolTip": "LuminaLauncher\\Classes\\FontInstaller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T12:43:33.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HardwareMonitor.cs",
+              "DocumentMoniker": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\Classes\\HardwareMonitor.cs",
+              "RelativeDocumentMoniker": "LuminaLauncher\\Classes\\HardwareMonitor.cs",
+              "ToolTip": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\Classes\\HardwareMonitor.cs",
+              "RelativeToolTip": "LuminaLauncher\\Classes\\HardwareMonitor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T12:43:35.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ThemesManager.cs",
+              "DocumentMoniker": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\Classes\\ThemesManager.cs",
+              "RelativeDocumentMoniker": "LuminaLauncher\\Classes\\ThemesManager.cs",
+              "ToolTip": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\Classes\\ThemesManager.cs",
+              "RelativeToolTip": "LuminaLauncher\\Classes\\ThemesManager.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAhwDQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T13:30:47.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "EditWindow.xaml",
               "DocumentMoniker": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\Windows\\EditWindow.xaml",
               "RelativeDocumentMoniker": "LuminaLauncher\\Windows\\EditWindow.xaml",
