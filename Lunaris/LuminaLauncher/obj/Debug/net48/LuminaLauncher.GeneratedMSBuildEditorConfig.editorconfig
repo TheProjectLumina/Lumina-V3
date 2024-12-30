@@ -1,6 +1,6 @@
 is_global = true
 build_property.RootNamespace = LuminaLauncher
-build_property.ProjectDir = R:\BGMI\luminabe-dev\Lunaris\LuminaLauncher\
+build_property.ProjectDir = E:\github\luminabe-dev\Lunaris\LuminaLauncher\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false
