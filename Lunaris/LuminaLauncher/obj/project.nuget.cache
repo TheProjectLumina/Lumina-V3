@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bYO4pbjbl8k=",
+  "dgSpecHash": "FDIGhwg/SSM=",
   "success": true,
   "projectFilePath": "E:\\github\\luminabe-dev\\Lunaris\\LuminaLauncher\\LuminaLauncher.csproj",
   "expectedPackageFiles": [
@@ -92,17 +92,5 @@
     "C:\\Users\\mrjar\\.nuget\\packages\\youtubeexplode\\6.4.2\\youtubeexplode.6.4.2.nupkg.sha512",
     "C:\\Users\\mrjar\\.nuget\\packages\\youtubeexplode.converter\\6.4.2\\youtubeexplode.converter.6.4.2.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Text.Json' 8.0.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-8g4q-xg66-9fp4",
-      "libraryId": "System.Text.Json",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.8",
-        ".NETFramework,Version=v4.8/win-x64"
-      ]
-    }
-  ]
+  "logs": []
 }

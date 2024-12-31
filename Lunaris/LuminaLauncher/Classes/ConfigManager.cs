@@ -14,7 +14,7 @@ namespace StarZLauncher.Classes
         {
             { "DefaultMod", "None" },
             { "DiscordRPC", true },
-            { "DiscordRPCIdleStatus", "In the launcher" },
+            { "DiscordRPCIdleStatus", "Hovering the moon" },
             { "DiscordRPCShowGameVersion", true },
             { "DiscordRPCShowDLLName", true },
             { "Theme", "LightTheme" },
@@ -23,7 +23,7 @@ namespace StarZLauncher.Classes
             { "MinecraftInstallationPath", Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Luna Launcher", "Versions") },
             { "OfflineMode", false },
             { "DoNotAskForUpdates", false },
-            { "DebugHardwareMonitoring", true },
+            { "DebugHardwareMonitoring", false },
             { "DebugFontInstaller", false }
         };
 

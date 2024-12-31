@@ -10,7 +10,7 @@ namespace StarZLauncher;
 public partial class App : Application
 {
     private bool HasRun = false;
-    private const string VERSION_URL = "https://raw.githubusercontent.com/ignYoqzii/StarZLauncher/main/LauncherVersion.txt";
+    private const string VERSION_URL = "https://raw.githubusercontent.com/Lodingglue/LuminaV3/refs/heads/main/LauncherVersion.txt";
     private static readonly string logFileName = $"AppStartup.txt";
 
     protected override void OnStartup(StartupEventArgs e)

@@ -30,7 +30,6 @@ E:\github\luminabe-dev\StarZ Launcher\LuminaLauncher\obj\Debug\net48\LuminaLaunc
 E:\github\luminabe-dev\StarZ Launcher\LuminaLauncher\obj\Debug\net48\LuminaLauncher.pdb
 E:\github\luminabe-dev\Lunaris\LuminaLauncher\bin\Debug\net48\LuminaLauncher.exe.config
 E:\github\luminabe-dev\Lunaris\LuminaLauncher\bin\Debug\net48\LuminaLauncher.exe
-E:\github\luminabe-dev\Lunaris\LuminaLauncher\bin\Debug\net48\LuminaLauncher.pdb
 E:\github\luminabe-dev\Lunaris\LuminaLauncher\obj\Debug\net48\LuminaLauncher.csproj.AssemblyReference.cache
 E:\github\luminabe-dev\Lunaris\LuminaLauncher\obj\Debug\net48\LuminaLauncher.csproj.SuggestedBindingRedirects.cache
 E:\github\luminabe-dev\Lunaris\LuminaLauncher\obj\Debug\net48\LuminaLauncher.exe.config
@@ -53,8 +52,6 @@ E:\github\luminabe-dev\Lunaris\LuminaLauncher\obj\Debug\net48\LuminaLauncher.Gen
 E:\github\luminabe-dev\Lunaris\LuminaLauncher\obj\Debug\net48\LuminaLauncher.AssemblyInfoInputs.cache
 E:\github\luminabe-dev\Lunaris\LuminaLauncher\obj\Debug\net48\LuminaLauncher.AssemblyInfo.cs
 E:\github\luminabe-dev\Lunaris\LuminaLauncher\obj\Debug\net48\LuminaLauncher.csproj.CoreCompileInputs.cache
-E:\github\luminabe-dev\Lunaris\LuminaLauncher\obj\Debug\net48\LuminaLauncher.sourcelink.json
 E:\github\luminabe-dev\Lunaris\LuminaLauncher\obj\Debug\net48\LuminaLauncher.exe
-E:\github\luminabe-dev\Lunaris\LuminaLauncher\obj\Debug\net48\LuminaLauncher.pdb
 E:\github\luminabe-dev\Lunaris\LuminaLauncher\obj\Debug\net48\LuminaLauncher.csproj.Fody.CopyLocal.cache
 E:\github\luminabe-dev\Lunaris\LuminaLauncher\obj\Debug\net48\LuminaLauncher.csproj.Fody.RuntimeCopyLocal.cache

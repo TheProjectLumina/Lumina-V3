@@ -28,7 +28,7 @@ namespace StarZLauncher.Classes
 
         public static async Task LoadVersionsAsync()
         {
-            string versionsUrl = "https://raw.githubusercontent.com/ignYoqzii/StarZLauncher/main/MinecraftVersions.txt";
+            string versionsUrl = "https://raw.githubusercontent.com/Lodingglue/LuminaV3/refs/heads/main/MinecraftVersions.txt";
             using HttpClient client = new();
             string versions = await client.GetStringAsync(versionsUrl);
             versionList = versions.Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);

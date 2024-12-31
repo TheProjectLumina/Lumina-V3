@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Lunaris"
+    "\\Lunaris",
+    "\\Lunaris\\LuminaLauncher",
+    "\\Lunaris\\LuminaLauncher\\Classes",
+    "\\Lunaris\\LuminaLauncher\\Resources",
+    "\\Lunaris\\LuminaLauncher\\Themes",
+    "\\Lunaris\\LuminaLauncher\\Windows"
   ],
   "SelectedNode": "\\Lunaris\\LuminaLauncher.sln",
   "PreviewInSolutionExplorer": false

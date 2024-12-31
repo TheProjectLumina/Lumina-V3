@@ -6,7 +6,6 @@
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
 	<Platforms>AnyCPU;x64</Platforms>
-	<ApplicationIcon>Resources/StarZ.ico</ApplicationIcon>
 	<LangVersion>11</LangVersion>
 	<Company>Lunaris Team ©</Company>
 	<Product>Lumina: A Minecraft Bedrock Edition Launcher</Product>
@@ -15,7 +14,28 @@
 	<Copyright>Lunaris Team ©</Copyright>
 	<FileVersion>0.0.1</FileVersion>
 	<AssemblyVersion>0.0.1</AssemblyVersion>
-	<PlatformTarget>x64</PlatformTarget>
+	<PlatformTarget>AnyCPU</PlatformTarget>
+	<ApplicationIcon>Resources\sexual.ico</ApplicationIcon>
+	<NuGetAuditLevel>critical</NuGetAuditLevel>
+	<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+	<RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+	<SignAssembly>False</SignAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <DebugType>none</DebugType>
   </PropertyGroup>
 
 	<ItemGroup>
@@ -69,7 +89,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Content Include="Resources/StarZ.ico" />
+		<Content Include="Resources\sexual.ico" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -116,6 +136,7 @@
 		<Resource Include="Resources/Custom.png" />
 		<Resource Include="Resources/Import.png" />
 		<Resource Include="Resources/Export.png" />
+		<Resource Include="Resources/launch.png" />
 	</ItemGroup>
 
 	<ItemGroup>

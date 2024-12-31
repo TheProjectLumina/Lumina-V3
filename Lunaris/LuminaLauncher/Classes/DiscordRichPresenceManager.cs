@@ -6,7 +6,7 @@ namespace StarZLauncher.Classes
 {
     public static class DiscordRichPresenceManager
     {
-        private static readonly string ClientId = "1071616808752259164";
+        private static readonly string ClientId = "1323549148393377875";
         private static DiscordRpcClient? discordClient;
 
         public static DiscordRpcClient DiscordClient

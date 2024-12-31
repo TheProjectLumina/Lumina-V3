@@ -6,9 +6,9 @@
         <!-- Opening animation -->
         <Grid x:Name="OpeningAnim" Panel.ZIndex="10" Visibility="Visible">
 
-            <Border Background="#111111" CornerRadius="20" BorderBrush="Silver" BorderThickness="0.5" Margin="1,0,-1,0"/>
+            <Border Background="#111111" CornerRadius="20" BorderBrush="Silver" BorderThickness="0.5"/>
 
-            <Image x:Name="OpeningLogo" Source="/Resources/StarZLogo.png" Margin="239,141,265,297" RenderOptions.BitmapScalingMode="HighQuality"/>
+            <Image x:Name="OpeningLogo" Source="/Resources/launch.png" Margin="0,141,0,244" RenderOptions.BitmapScalingMode="HighQuality"/>
 
             <Border Background="White" CornerRadius="2" BorderThickness="1" Margin="254,362,270,190">
                 <ProgressBar Minimum="0" Maximum="1" Value="0" Background="Transparent" BorderThickness="0" Margin="0,0,0,0">
@@ -247,7 +247,7 @@
 
 
 
-                            <Border x:Name="HomeBackground2" Background="{DynamicResource SecondaryBackgroundColor}" CornerRadius="20" Margin="80,369,321,97">
+                            <Border x:Name="HomeBackground2" Background="{DynamicResource SecondaryBackgroundColor}" CornerRadius="20" Margin="80,369,0,97" Width="350" HorizontalAlignment="Left">
 
 
                                 <Border.Effect>
@@ -263,7 +263,7 @@
 
 
 
-                            <Border x:Name="HomeBackground3" Background="{DynamicResource SecondaryBackgroundColor}" CornerRadius="20" Margin="523,369,54,97">
+                            <Border x:Name="HomeBackground3" Background="{DynamicResource SecondaryBackgroundColor}" CornerRadius="20" Margin="470,369,0,97" Width="350" HorizontalAlignment="Left">
 
 
                                 <Border.Effect>
@@ -327,7 +327,7 @@
 
 
 
-                            <TextBlock x:Name="LauncherVersionText" Text="Version Switcher" FontSize="24" FontFamily="HONOR Sans" Foreground="{DynamicResource TextColor}"  FontWeight="Medium" Margin="554,388,85,191" Panel.ZIndex="3" Opacity="1"/>
+                            <TextBlock x:Name="LauncherVersionText" Text="Version Switcher" FontSize="24" FontFamily="HONOR Sans" Foreground="{DynamicResource TextColor}"  FontWeight="Medium" Margin="554,388,85,191" Panel.ZIndex="3" Opacity="1" HorizontalAlignment="Center"/>
 
 
 
