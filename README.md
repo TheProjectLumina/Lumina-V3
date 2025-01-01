@@ -43,6 +43,10 @@ Luna Launcher/
 ## 🛠️ Dependencies
 - .NET Framework
 - Discord RPC library
+<<<<<<< HEAD
 - Windows OS (Documents folder access)
+=======
+
+>>>>>>> anime-thick-thighs-backup
 
 This launcher appears to be designed with modularity and user customization in mind, providing a robust platform for managing Minecraft Bedrock Edition installations with additional features for enhanced gameplay experience.
