@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Lunaris Team ©")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("A Minecraft Bedrock Edition Launcher")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("0.0.1")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+438ed0e012e231908f732f540f69013c4615b901")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8cd07ead003d12e42a067fa232cbe510576030a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lumina: A Minecraft Bedrock Edition Launcher")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LuminaLauncher")]
 [assembly: System.Reflection.AssemblyVersionAttribute("0.0.1")]

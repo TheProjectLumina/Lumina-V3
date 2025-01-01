@@ -319,7 +319,7 @@ namespace StarZLauncher.Windows
 
         private void JoinDiscordServer_Click(object sender, RoutedEventArgs e)
         {
-            Process.Start("https://projectlumina.org/discord");
+            Process.Start("https://projectlumina.netlify.app/discord");
         }
 
         // close the program
