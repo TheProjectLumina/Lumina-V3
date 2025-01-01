@@ -43,6 +43,6 @@ Luna Launcher/
 ## 🛠️ Dependencies
 - .NET Framework
 - Discord RPC library
-- Windows OS (Documents folder access)
+
 
 This launcher appears to be designed with modularity and user customization in mind, providing a robust platform for managing Minecraft Bedrock Edition installations with additional features for enhanced gameplay experience.
