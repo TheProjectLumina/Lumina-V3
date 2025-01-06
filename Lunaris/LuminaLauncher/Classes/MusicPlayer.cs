@@ -32,7 +32,7 @@ namespace StarZLauncher.Classes
 
         static MusicPlayer()
         {
-            MusicDirectoryPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Luna Launcher", "Musics");
+            MusicDirectoryPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Lumina Launcher", "Musics");
             Directory.CreateDirectory(MusicDirectoryPath);
             MediaPlayer = new MediaPlayer();
             MediaPlayer.MediaEnded += MediaPlayer_MediaEnded;

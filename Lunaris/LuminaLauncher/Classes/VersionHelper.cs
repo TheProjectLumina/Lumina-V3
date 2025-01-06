@@ -53,7 +53,7 @@ namespace StarZLauncher.Classes
 
         private static async void DownloadLatestLauncher(string url, string latestVersion)
         {
-            string downloadPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), $"Luna Launcher ({latestVersion}).exe");
+            string downloadPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), $"Lumina Launcher ({latestVersion}).exe");
 
             if (File.Exists(downloadPath))
             {
