@@ -13,7 +13,7 @@ namespace StarZLauncher.Classes
 {
     public static class ThemesManager
     {
-        private static readonly string themeFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Lumina Launcher", "Theme", "Luna.szt");
+        private static readonly string themeFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Lumina Launcher", "Theme", "LuminaTheme.lmt"); // Custom file extension (Lumina theme file)
         private static readonly string ActiveColor = "#FF50505";
         private static readonly string logFileName = "ThemesManager.txt";
 
@@ -290,13 +290,13 @@ private static Dictionary<string, string> CreateCustomThemeColorDictionary() => 
 
                 // Show the RenameWindow to ask the user for a new file name
                 BackgroundForWindowsOnTop!.Visibility = Visibility.Visible;
-                var editWindow = new EditWindow("StarZTheme.szt");
+                var editWindow = new EditWindow("LuminaTheme.lmt");
                 bool? result = editWindow.ShowDialog();
 
                 if (result == true && !string.IsNullOrEmpty(editWindow.NewName!))
                 {
                     // Define the backup file path with the new file name and .json extension
-                    string backupFilePath = Path.Combine(Path.GetDirectoryName(themeFilePath) ?? string.Empty, editWindow.NewName! + ".szt");
+                    string backupFilePath = Path.Combine(Path.GetDirectoryName(themeFilePath) ?? string.Empty, editWindow.NewName! + ".lmt");
 
                     // Copy the existing theme file to the backup location
                     File.Copy(themeFilePath, backupFilePath, true); // Use true to overwrite if the file exists
@@ -325,8 +325,8 @@ private static Dictionary<string, string> CreateCustomThemeColorDictionary() => 
             {
                 // Show an OpenFileDialog to let the user select the theme file to import
                 using OpenFileDialog openFileDialog = new();
-                openFileDialog.Filter = "Luna Theme files (*.szt)|*.szt";
-                openFileDialog.Title = "Select a valid Luna Theme .szt file to import";
+                openFileDialog.Filter = "Lumina Theme files (*.lmt)|*.lmt";
+                openFileDialog.Title = "Select a valid Luna Theme .lmt file to import";
 
                 if (openFileDialog.ShowDialog() != DialogResult.OK)
                 {

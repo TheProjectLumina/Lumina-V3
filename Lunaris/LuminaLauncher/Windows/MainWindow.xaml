@@ -46,13 +46,13 @@
 
         <Rectangle Name="DragWindow" Fill="Transparent" Height="90" Panel.ZIndex="2" Width="894" Opacity="0.1" Canvas.Left="14" Canvas.Top="27" HorizontalAlignment="Left" MouseLeftButtonDown="WindowToolbar_MouseLeftButtonDown" VerticalAlignment="Top" Margin="9,21,0,0"/>
 
-        <Rectangle x:Name="CloseButton" Style="{DynamicResource IconsStyle}" Height="34" Margin="825,48,45,482" MouseLeftButtonDown="CloseButton_Click" RenderTransformOrigin="0.5, 0.5" Panel.ZIndex="3">
+        <Rectangle x:Name="CloseButton" Style="{DynamicResource IconsStyle}" Height="34" Margin="825,54,45,476" MouseLeftButtonDown="CloseButton_Click" RenderTransformOrigin="0.5, 0.5" Panel.ZIndex="3">
             <Rectangle.OpacityMask>
                 <ImageBrush ImageSource="/Resources/CloseGray.png" RenderOptions.BitmapScalingMode="HighQuality" />
             </Rectangle.OpacityMask>
         </Rectangle>
 
-        <Rectangle x:Name="MinimizeButton" Style="{DynamicResource IconsStyle}" Height="34" Margin="786,48,84,482" MouseLeftButtonDown="MinimizeButton_Click" RenderTransformOrigin="0.5, 0.5" Panel.ZIndex="3">
+        <Rectangle x:Name="MinimizeButton" Style="{DynamicResource IconsStyle}" Height="34" Margin="786,54,84,476" MouseLeftButtonDown="MinimizeButton_Click" RenderTransformOrigin="0.5, 0.5" Panel.ZIndex="3">
             <Rectangle.OpacityMask>
                 <ImageBrush ImageSource="/Resources/MinimizeGray.png" RenderOptions.BitmapScalingMode="HighQuality" />
             </Rectangle.OpacityMask>
@@ -297,7 +297,7 @@
                             <TextBlock x:Name="DiscordServerTextBlock" FontSize="30" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}"  Margin="208,381,457,184"><Run Text="Discord"/><LineBreak/><Run/></TextBlock>
 
 
-                            <TextBlock x:Name="DiscordServerTextBlock2" Text="Lumina Community" FontSize="18" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}"  Margin="212,421,453,118" RenderTransformOrigin="0.736,0.531"/>
+                            <TextBlock x:Name="DiscordServerTextBlock2" Text="Lumina Community" FontSize="18" FontFamily="HONOR Sans" FontWeight="Medium" Foreground="{DynamicResource TextColor}"  Margin="209,421,456,118" RenderTransformOrigin="0.736,0.531"/>
 
 
                             <!-- Rectangle to apply the color tint -->
@@ -323,7 +323,7 @@
 
 
 
-                            <Button Content="Join" Cursor="Hand" Foreground="{DynamicResource TextColor}"  FontWeight="Bold" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" Click="JoinDiscordServer_Click" Margin="218,460,467,0" Height="30" VerticalAlignment="Top" RenderTransformOrigin="0.526,0.563"/>
+                            <Button Content="Join" Cursor="Hand" Foreground="{DynamicResource TextColor}"  FontWeight="Bold" FontFamily="HONOR Sans" Template="{StaticResource DefaultButtons}" Click="JoinDiscordServer_Click" Margin="209,459,476,0" Height="30" VerticalAlignment="Top" RenderTransformOrigin="0.526,0.563"/>
 
 
 
