@@ -18,7 +18,7 @@ Lumina Launcher (also known as Luna Launcher) is a custom launcher for Minecraft
 ## 🗂️ Directory Structure
 The launcher creates and manages the following directory structure in your Documents folder:
 ```
-Luna Launcher/
+Lumina Launcher/
 ├── Versions/        # Different Minecraft versions
 ├── Profiles/        # User profiles
 ├── Musics/         # Custom music files
