@@ -13,7 +13,7 @@ namespace StarZLauncher.Classes
     {
         public static string? VersionNumber { get; private set; }
 
-        private const string VERSION_FILE_PATH = @"Luna Launcher\LauncherVersion.txt";
+        private const string VERSION_FILE_PATH = @"Lumina Launcher\LauncherVersion.txt";
         private const string VERSION_URL = "https://raw.githubusercontent.com/Lodingglue/LuminaV3/refs/heads/main/LauncherVersion.txt";
         private const string DOWNLOAD_URL = "https://github.com/Lodingglue/LuminaV3/releases/download/{0}/LuminaLauncher.exe";
 
@@ -53,7 +53,7 @@ namespace StarZLauncher.Classes
 
         private static async void DownloadLatestLauncher(string url, string latestVersion)
         {
-            string downloadPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), $"Luna Launcher ({latestVersion}).exe");
+            string downloadPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), $"Lumina Launcher ({latestVersion}).exe");
 
             if (File.Exists(downloadPath))
             {

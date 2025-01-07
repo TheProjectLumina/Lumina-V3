@@ -15,7 +15,7 @@ namespace StarZLauncher.Classes
 {
     public static class ModsManager
     {
-        private static readonly string MOD_FOLDER = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Luna Launcher", "Mods");
+        private static readonly string MOD_FOLDER = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Lumina Launcher", "Mods");
         private static readonly string JSON_FILE = Path.Combine(MOD_FOLDER, "ModsCollection.json");
         public static ObservableCollection<ModInfo> ModItems { get; private set; } = new(); // To display in the launcher
 

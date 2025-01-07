@@ -12,9 +12,9 @@ public class FontInstaller
     private const string FontUrl = "https://github.com/Lodingglue/LuminaV3/releases/download/nigga/Outfit-VariableFont.ttf";
     private const string FontFileName = "Outfit-VariableFont.ttf";
     private static readonly string LogFileName = "FontInstaller.txt";
-    private static readonly string LogFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Luna Launcher", "Logs", LogFileName);
-    private static readonly string FontFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Luna Launcher", "Font", FontFileName);
-    private static readonly string FontPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Luna Launcher", "Font");
+    private static readonly string LogFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Lumina Launcher", "Logs", LogFileName);
+    private static readonly string FontFilePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Lumina Launcher", "Font", FontFileName);
+    private static readonly string FontPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Lumina Launcher", "Font");
 
     public static async Task FontInstallation()
     {

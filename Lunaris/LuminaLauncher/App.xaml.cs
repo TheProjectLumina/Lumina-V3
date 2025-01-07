@@ -30,14 +30,13 @@ public partial class App : Application
             }
 
             string documentsPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-            string StarZLauncherPath = Path.Combine(documentsPath, "Luna Launcher");
+            string StarZLauncherPath = Path.Combine(documentsPath, "Lumina Launcher");
             string VersionsPath = Path.Combine(StarZLauncherPath, "Versions");
             string profilesPath = Path.Combine(StarZLauncherPath, "Profiles");
             string musicsPath = Path.Combine(StarZLauncherPath, "Musics");
             string dllsPath = Path.Combine(StarZLauncherPath, "Mods");
             string logsPath = Path.Combine(StarZLauncherPath, "Logs");
             string versionFilePath = Path.Combine(StarZLauncherPath, "LauncherVersion.txt");
-            string oldConfigFilePath = Path.Combine(StarZLauncherPath, "Config.txt");
 
             EnsureDirectoryExists(StarZLauncherPath);
             EnsureDirectoryExists(VersionsPath);
@@ -50,11 +49,6 @@ public partial class App : Application
             {
                 Directory.CreateDirectory(Path.GetDirectoryName(versionFilePath));
                 DownloadLatestVersion(versionFilePath);
-            }
-
-            if (File.Exists(oldConfigFilePath))
-            {
-                File.Delete(oldConfigFilePath);
             }
 
             if (!HasRun)
